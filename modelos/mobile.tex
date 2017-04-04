@@ -1,0 +1,18 @@
+    \documentclass[a6paper]{article}
+    \usepackage[14pt]{extsizes}
+    \usepackage[left=0.5cm,top=1cm,right=0.5cm,bottom=1.3cm,marginparwidth=0mm,marginparsep=0mm]{geometry}
+ 	\pagestyle{empty}
+    \makeatletter
+    \newif\if@sectionused \@sectionusedfalse
+    \newif\if@subsectionused \@subsectionusedfalse
+    \newif\if@subsubsectionused \@subsubsectionusedfalse
+    \newif\if@paragraphused \@paragraphusedfalse
+    \let\oldsection\section
+    \let\oldsubsection\subsection
+    \let\oldsubsubsection\subsubsection
+    \let\oldparagraph\paragraph
+    \renewcommand{\section}{\if@sectionused\clearpage\fi\@sectionusedtrue\@subsectionusedfalse\@subsubsectionusedfalse\@paragraphusedfalse\ifdefined\zeraRodape\setcounter{footnote}{0}\fi\oldsection}
+    \renewcommand{\subsection}{\if@subsectionused\clearpage\fi\@subsectionusedtrue\@subsubsectionusedfalse\@paragraphusedfalse\oldsubsection}
+    \renewcommand{\subsubsection}{\if@subsubsectionused\clearpage\fi\@subsubsectionusedtrue\@paragraphusedfalse\oldsubsubsection}
+    %\renewcommand{\paragraph}{\if@paragraphused\clearpage\fi\@paragraphusedtrue\oldparagraph}
+    \makeatother

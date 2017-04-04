@@ -1,0 +1,56 @@
+  \ifdefined\incluirCapa
+	\input{\modelos/capa.tex}
+    \ifdefined\mobile
+      \clearpage
+    \else
+    \fi
+  \else
+  \fi % a próxima linha já deve ser o TOC
+  \renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
+  \tableofcontents
+  \etocifwasempty 
+  {
+    \ifdefined\mobile
+    \else
+     \newline % se tiver linha em branco acima, da pau
+    \fi
+  }
+  {
+  \noindent\hrulefill
+  \ifdefined\mobile
+    \thispagestyle{empty}
+    \clearpage
+  \else
+    \newline
+  \fi
+  }
+
+\frenchspacing 
+\markdownSetup{rendererPrototypes={
+  image = {\begin{figure}[hbt!]
+    \centering
+    \includegraphics[max width=\textwidth]{#3}%
+    \ifx\empty#4\empty\else
+    \caption{#4}%
+    \fi
+    \label{fig:#1}%
+    \end{figure}}
+}}
+
+  \ifdefined\URL
+    \ifdefined\CriadorDestePDF
+      \def \poster {\today. Discussão em: <\URL>, por \textsc{\CriadorDestePDF}}
+    \else
+      \def \poster {\today. Discussão em: <\URL>}
+    \fi
+  \else
+    \ifdefined\CriadorDestePDF
+      \def \poster {\today. Arquivo gerado por \textsc{\CriadorDestePDF}}
+    \else
+      \def \poster {\today}
+    \fi
+  \fi
+
+\blfootnote{$ ^\sim $\poster}
+
+\markdownInput{\fontes/\caminho/artigo.md}

@@ -1,0 +1,46 @@
+ %\def \caminho{Protecionismo} 
+ %\def \caminho{Evitando_o_Mito_do_Dado} 
+
+ \def \modelos{C:/Users/Thiago/Desktop/ancap.ch/artigos/modelos}
+ \def \fontes{C:/Users/Thiago/Desktop/ancap.ch/artigos/fontes}
+
+% \def \mobile{} 
+
+\ifdefined\mobile
+  \def \capa {\fontes/\caminho/capa_mob.jpg}
+\else
+  \def \capa {\fontes/\caminho/capa.jpg}
+\fi
+
+
+
+\def \incluirCapa{} 
+
+% -------------------------------------------------------------
+\input{\modelos/preambulo.tex}
+% -------------------------------------------------------------
+
+\begin{document}
+
+\ifdefined\mobile
+  \input{\fontes/\caminho/info_mob.tex}
+\else
+  \input{\fontes/\caminho/info.tex}
+\fi
+
+
+
+%\def \titulo {Título do Artigo}
+%\def \autor {Autor do Artigo}
+%\def \tradutor {Tradutor do Artigo}
+%\def \URL {https://br.ancap.ch/t/27}
+% \def \CriadorDestePDF {O Cara Que Gerou Esse PDF}
+%\def \capa {capa.jpg}
+
+% -------------------------------------------------------------
+\input{\modelos/iniciarTexto.tex}
+% -------------------------------------------------------------
+\hfill\(\blacksquare\)
+\blfootnote{\newline\markdownInput{\fontes/\caminho/comments.md}}
+
+\end{document}

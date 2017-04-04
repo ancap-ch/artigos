@@ -1,0 +1,5 @@
+    \makeatletter
+    \newif\if@sectionused \@sectionusedfalse
+    \let\oldsection\section
+    \renewcommand{\section}{\if@sectionused\clearpage\fi\@sectionusedtrue\ifdefined\zeraRodape\setcounter{footnote}{0}\fi\oldsection}
+    \makeatother
