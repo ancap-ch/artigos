@@ -1,5 +1,13 @@
     \makeatletter
     \newif\if@sectionused \@sectionusedfalse
     \let\oldsection\section
-    \renewcommand{\section}{\if@sectionused\clearpage\fi\@sectionusedtrue\ifdefined\zeraRodape\setcounter{footnote}{0}\fi\oldsection}
+    \renewcommand{\section}{
+    \ifdefined\separarSecoes
+	    \if@sectionused\clearpage\fi
+	    \@sectionusedtrue
+    	\def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
+    \fi
+    \ifdefined\zeraRodape\setcounter{footnote}{0}\fi
+    \oldsection
+    }
     \makeatother

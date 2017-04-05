@@ -16,7 +16,7 @@ Por outro lado, talvez um "racista"{} seja alguém que acredite que grupos difer
 
 Os chineses, por exemplo, ficaram conhecidos em países pelo mundo todo por trabalharem muito duro, geralmente sob condições particularmente difíceis. (Na verdade esta é uma das razões porque os sindicatos trabalhistas americanos desprezaram os trabalhadores chineses no século XIX.) Na metade do século XX, a minoria chinesa dominou os mais importantes setores da economia malaia mesmo sendo oficialmente discriminados na constituição malaia, e tinham o dobro do rendimento do malaio médio. Eles eram donos da grande maioria dos moinhos de arroz na Tailândia e nas Filipinas. Eles conduziam mais de 70% do comércio de varejo na Tailândia, Indonésia, Camboja, Filipinas e Malásia.
 
-Podemos contar uma história semelhante sobre os armênios em várias partes do mundo, assim como os judeus e os indianos ocidentais. Americanos-japoneses, uma vez discriminados severamente a ponto de serem confinados em campos durante a Segunda Guerra Mundial, chegaram a se igualar com os brancos em rendimentos no ano de 1959, e ultrapassaram em 1/3 o rendimento dos brancos uma década depois.
+Podemos contar uma história semelhante sobre os armênios em várias partes do mundo, assim como os judeus e os indianos ocidentais. Americanos"-japoneses, uma vez discriminados severamente a ponto de serem confinados em campos durante a Segunda Guerra Mundial, chegaram a se igualar com os brancos em rendimentos no ano de 1959, e ultrapassaram em 1/3 o rendimento dos brancos uma década depois.
 
 Da mesma forma os alemães, cuja reputação e feitos em artesanatos, ciência e tecnologia foram evidentes não apenas na Alemanha, mas também entre alemães nos EUA, Brasil, Austrália, Tchecoslováquia e Chile. Eles tiveram mais fazendas prósperas que os fazendeiros irlandeses na Irlanda do século XVIII, que fazendeiros brasileiros no Brasil, fazendeiros russos na Rússia e fazendeiros chilenos no Chile.
 
@@ -24,7 +24,7 @@ Judeus têm rendimentos maiores que hispânicos nos EUA; isto, nos dizem solenem
 
 De acordo com as regras ilógicas em vigor na sociedade Americana, Sowell, sendo negro, tem permissão de discutir estes fenômenos, enquanto o resto de nós é demonizado, tem a carreira destruída e a reputação arruinada se mencionamos qualquer um destes indícios proibidos.
 
-Portanto, para não levantar suspeitas de "racismo"{}, deve-se evitar riscos pelo menos fingindo acreditar nas seguintes proposições:
+Portanto, para não levantar suspeitas de "racismo"{}, deve"-se evitar riscos pelo menos fingindo acreditar nas seguintes proposições:
 
 – disparidades de rendimentos entre grupos são totalmente ou em grande parte explicáveis pela "discriminação"{};
 
@@ -46,7 +46,7 @@ As seguintes opiniões ou proposições foram todas declaradas "racistas"{} em u
 
 – a extensão do racismo na sociedade americana é exagerada.
 
-Alguém poderia desenvolver estas declarações sob as mais variadas bases. Porém, já que de acordo com websites esquerdistas bem populares como Daily Kos, ThinkProgress e Media Matters, é "racista"{} acreditar em qualquer uma delas, não importa quais sejam seus argumentos. Você é um "racista"{}. Proteste o quanto quiser, mas quanto mais tentar, mais os comissários te difamam e ridicularizam. Você pode fazer parecer que tenha razões logicamente consistentes e moralmente impecáveis para justificar suas opiniões, mas tudo isso não passa de cortina de fumaça para o "racismo"{}, no que tange aos comissários. *A única maneira de satisfaze-los é abandonando suas opiniões* (e mesmo assim eles ainda irão por em dúvida sua sinceridade), mesmo que  você não tenha vergonha delas.
+Alguém poderia desenvolver estas declarações sob as mais variadas bases. Porém, já que de acordo com websites esquerdistas bem populares como Daily Kos, ThinkProgress e Media Matters, é "racista"{} acreditar em qualquer uma delas, não importa quais sejam seus argumentos. Você é um "racista"{}. Proteste o quanto quiser, mas quanto mais tentar, mais os comissários te difamam e ridicularizam. Você pode fazer parecer que tenha razões logicamente consistentes e moralmente impecáveis para justificar suas opiniões, mas tudo isso não passa de cortina de fumaça para o "racismo"{}, no que tange aos comissários. *A única maneira de satisfaze"-los é abandonando suas opiniões* (e mesmo assim eles ainda irão por em dúvida sua sinceridade), mesmo que  você não tenha vergonha delas.
 
 Então, acusações de "racismo"{} quase sempre envolvem tentativas de leitura de mentes – e.g., *aquela pessoa alega ser contra leis antidiscriminação por causa de algum tipo de princípio, mas sabemos que é porque ele é um racista.*
 
@@ -54,13 +54,13 @@ er libertários, que deveriam ter uma maior noção das coisas, embarcando no tr
 
 Se ele tentar se defender alegando que ele tem grandes amigos que pertencem aquele grupo, ele é acusado de ódio, ele será ainda mais ridicularizado. A seguir Rothbard novamente:
 
->Eu também gostaria de florear um ponto: Por toda a minha vida ouvi anti-antissemitas ridicularizarem gentios que, ao se defenderem de acusações de antissemitismo, protestaram dizendo que "alguns dos meus melhores amigos são judeus"{}. Esta frase é sempre ridicularizada, como se uma simples ridicularização fosse uma refutação de um argumento. Mas me parece que a ridicularização é normalmente usada aqui precisamente porque o argumento é conclusivo. Se alguns dos melhores amigos do Senhor X são realmente judeus, é absurdo e autocontraditório acusa-lo de ser antissemita. E isso deveria se encerrar ai.
+>Eu também gostaria de florear um ponto: Por toda a minha vida ouvi anti"-antissemitas ridicularizarem gentios que, ao se defenderem de acusações de antissemitismo, protestaram dizendo que "alguns dos meus melhores amigos são judeus"{}. Esta frase é sempre ridicularizada, como se uma simples ridicularização fosse uma refutação de um argumento. Mas me parece que a ridicularização é normalmente usada aqui precisamente porque o argumento é conclusivo. Se alguns dos melhores amigos do Senhor X são realmente judeus, é absurdo e autocontraditório acusa"-lo de ser antissemita. E isso deveria se encerrar ai.
 
 É difícil discordar de Rothbard nessa. Se alguém foi acusado de não gostar de carne, mas pudermos demonstrar que ele gosta muito de hambúrgueres e bolo de carne, isto iria virtualmente destruir a acusação, não?
 
 Não conheço ninguém que odeie grupos inteiros de pessoas , e as que o fazem são uma minoria tão minúscula que suas organizações são formadas por partes iguais de lunáticos e informantes do FBI. Do mesmo modo, não conheço ninguém que defenda o uso de violência oficial contra grupos específicos.
 
-Deveríamos querer tratar as pessoas com justiça e respeito. Qualquer pessoa decente sente que deveria ser assim. Mas como e quando a "igualdade"{} entrou no jogo, excetuando-se o trivial e óbvio sentido libertário que devemos todos igualmente abster-se de agredir um ao outro?
+Deveríamos querer tratar as pessoas com justiça e respeito. Qualquer pessoa decente sente que deveria ser assim. Mas como e quando a "igualdade"{} entrou no jogo, excetuando"-se o trivial e óbvio sentido libertário que devemos todos igualmente abster"-se de agredir um ao outro?
 
 O que o estado mais gosta é declarar guerra, contra as drogas, ou o terrorismo, ou a pobreza, ou a "desigualdade"{}. O estado ama a "igualdade"{} como um princípio organizacional, porque ela nunca pode ser alcançada. E no curso de se tentar, o estado adquire cada vez mais poder sobre cada vez mais práticas e instituições. Qualquer um que questione a premissa da igualdade é açoitado para fora da sociedade "civilizada"{} – uma bela fraude ela é, e sem dúvida não é um lugar para libertários.
 
@@ -68,7 +68,7 @@ Se é a igualdade material que queremos, ela iria desaparecer no momento que fos
 
 É claro que nos opomos a desigualdade que resulta de privilégios estatais especiais gozados por certas pessoas e grupos. Mas a verdadeira questão aqui não é a desigualdade per se, mas justiça e propriedade privada.
 
-Até mesmo o velho ditado sobre igualdade na visão de Deus não está certo. Erik von Kuehnelt-Leddihn, o tradicional católico e liberal clássico, notou que Judas, que traiu Cristo, não era de nenhuma forma "igual"{} ao amado discípulo, e que as origens da "igualdade"{} estavam na ânsia de Lúcifer ser igual a Cristo. Ele acrescentou:
+Até mesmo o velho ditado sobre igualdade na visão de Deus não está certo. Erik von Kuehnelt"-Leddihn, o tradicional católico e liberal clássico, notou que Judas, que traiu Cristo, não era de nenhuma forma "igual"{} ao amado discípulo, e que as origens da "igualdade"{} estavam na ânsia de Lúcifer ser igual a Cristo. Ele acrescentou:
 
 >O igualitarismo, na melhor das hipóteses, não passa de hipocrisia; se é aceitada e acreditada de coração, sua ameaça é maior. Deste modo, todas as desigualdades reais parecem sem exceção serem injustas, imorais e intoleráveis. Ódio, infelicidade, tensão, uma inadaptação geral é o resultado. A situação é ainda pior quando esforços brutais são feitos para estabelecer a igualdade através de um processo de nivelamentos artificiais ("engenharia social"{}) que só pode ser feito através da força, restrições, ou terror, e o resultado é a perda completa da liberdade.
 

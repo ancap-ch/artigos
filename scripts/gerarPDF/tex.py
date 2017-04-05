@@ -71,7 +71,7 @@ while True:
 			f.write('\input{' + main_tex + '}\n')
 			f.close()
 
-			for j in range(2):
+			for j in range(3):
 				# cria o pdf...
 				# ...acabou de criar
 				sys.stdout.write(",")

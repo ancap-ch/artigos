@@ -1,1 +1,12 @@
 regex sublime
+
+
+
+
+troca os - por "-
+^([^\[].*\w)-(\w.*$)
+\1"-\2
+
+coloca os quadradinhos antes do início de novas subseções
+(^(?![#\n\[])[^\n]*)((\n)+^)(### )
+\1\\fimsubsubsec\2\4

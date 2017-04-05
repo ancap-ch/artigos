@@ -4,9 +4,9 @@
   \documentclass[a4paper]{article}
   \usepackage[14pt]{extsizes}
   \usepackage[top=1.185in, bottom=1.185in, left=1in, right=1in]{geometry}
-  \ifdefined\separarSecoes
+  %\ifdefined\separarSecoes
   	\input{\modelos/clearpagelivro.tex}
-  \fi
+  %\fi
 \fi
 
 \pdfminorversion=6
@@ -32,6 +32,7 @@
 
 \usepackage[portuguese]{babel}
 \usepackage{microtype}
+\input{\modelos/hifens}
 
 \usepackage{tocloft} % para mudar o titulo do indice
 \usepackage{etoc} % para saber se tem indice ou não
@@ -117,18 +118,22 @@
 %\def\striplastSa#1#2.\end#3\eend{\ifx\end#3\end#1\else#2\fi}
 \renewcommand{\footnote}[1]{\oldfootnote{#1\nopagebreak\hfill\textcolor{lightgray}{$\Box$}}}
 
-\ifdefined\mobile
-  \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
-  \def \fimsubsec {\hfill\textcolor{lightgray}{$\Box$}}
-  \def \fimsubsubsec {\hfill\textcolor{lightgray}{$\Box$}}
-\else
-  \ifdefined\separarSecoes
-    \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
-    \def \fimsubsec {}
-    \def \fimsubsubsec {}
-  \else
-    \def \fimsec {}
-    \def \fimsubsec {}
-    \def \fimsubsubsec {}
-  \fi
-\fi
+\def \fimsec {}
+\def \fimsubsec {}
+\def \fimsubsubsec {}
+
+% \ifdefined\mobile
+%   \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
+%   \def \fimsubsec {\hfill\textcolor{lightgray}{$\Box$}}
+%   \def \fimsubsubsec {\hfill\textcolor{lightgray}{$\Box$}}
+% \else
+%   \ifdefined\separarSecoes
+%     \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
+%     \def \fimsubsec {}
+%     \def \fimsubsubsec {}
+%   \else
+%     \def \fimsec {}
+%     \def \fimsubsec {}
+%     \def \fimsubsubsec {}
+%   \fi
+% \fi

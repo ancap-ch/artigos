@@ -1,8 +1,8 @@
-1: Anarcocapitalismo uma bibliografia comentada
-2: Análise de classe marxista e austríaca
+﻿-1: Anarcocapitalismo uma bibliografia comentada
+-2: Análise de classe marxista e austríaca
 3: Aprimore O Formato De Suas Discussões
-4: As distorções geradas pelos sindicatos e pela política de salário mínimo
-5: Atividade Bancária, Estados-Nações e Política Internacional Uma Reconstrução Sociológica da Ordem Econômica Presente
+-4: As distorções geradas pelos sindicatos e pela política de salário mínimo
+-5: Atividade Bancária, Estados-Nações e Política Internacional Uma Reconstrução Sociológica da Ordem Econômica Presente
 6: A tragédia social gerada pela democracia
 7: A ética do discurso em Habermas
 8: Depressões econômicas a causa e a cura
