@@ -26,6 +26,12 @@ main_tex = 'C:/Users/Thiago/Desktop/ancap.ch/artigos/main/main.tex'
 
 path = fontes.encode('utf-8').strip()
 
+debug = 0
+passagens = 2
+mobonly = 0
+pconly = 0
+last = 0
+
 import unicodedata
 #dirs = [unicodedata.normalize('NFC', f) for f in os.listdir(ufontes)]
 dirs = os.listdir(path)
@@ -38,9 +44,34 @@ for index, d in enumerate(dirs, 1):
 	print(ds)
 
 while True:
+	while True:
+		print("------")
+		sys.stdout.write(str(passagens))
+		sys.stdout.write(" passagens. ")
+		if debug:
+			sys.stdout.write("debug, ")
+		if mobonly:
+			sys.stdout.write("mobonly, ")
+		if pconly:
+			sys.stdout.write("pconly, ")
+		sys.stdout.flush()	
+		print("\n------")
+		print("1- vai\n2- debug ON/OFF\n3- mob only ON/OFF\n4- PC only ON/OFF\n5- passagens 3/2")
+		continua = eval(input("mude as opcoes: ") or "1")
+		if continua == 1 or continua == 0:
+			break
+		if continua == 2:
+			debug = 1 - debug
+		if continua == 3:
+			mobonly = 1 - mobonly
+		if continua == 4:
+			pconly = 1 - pconly
+		if continua == 5:
+			passagens = (1-(passagens-2)) + 2
 	print("------")
-	indice = eval(input("Enter a number: "))
+	indice = eval(input("crie o PDF: ") or last)
 	copia = indice
+	last = indice
 	for index, d in enumerate(dirs, 1):
 		if indice < 0:
 			indice = 0
@@ -55,6 +86,10 @@ while True:
 		#print(dd)
 		print(str(index) + " - " + ds + ":")
 		for i in range(2):
+			if i == 0 and mobonly:
+				continue
+			if i == 1 and pconly:
+				continue
 			f = open('file.tex','w', encoding='UTF-8')
 			#l = open('lista.txt','w', encoding='UTF-8')
 			f.write('\def \caminho{' + dd + '}\n')
@@ -71,13 +106,15 @@ while True:
 			f.write('\input{' + main_tex + '}\n')
 			f.close()
 
-			for j in range(3):
+			for j in range(passagens):
 				# cria o pdf...
 				# ...acabou de criar
 				sys.stdout.write(",")
 				sys.stdout.flush()	
-				proc = subprocess.Popen(['pdflatex', 'file.tex', "-quiet", "--shell-escape"])
-				#proc = subprocess.Popen(['pdflatex', 'file.tex', "--shell-escape"])
+				if debug:
+					proc = subprocess.Popen(['pdflatex', 'file.tex', "--shell-escape"])
+				else:
+					proc = subprocess.Popen(['pdflatex', 'file.tex', "-quiet", "--shell-escape"])
 				proc.communicate()
 				retcode = proc.returncode
 				if not retcode == 0:

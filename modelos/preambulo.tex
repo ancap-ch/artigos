@@ -47,7 +47,15 @@
 \pgfdeclarelayer{bg}    % declare background layer
 \pgfdeclarelayer{front} 
 \pgfsetlayers{bg,main,front}  % set the order of the layers (main is the standard layer)
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,
+pdftex,
+  pdfauthor={\mautor},
+  pdftitle={\mtitulo},
+  pdfsubject={Ancap/artigos},
+  pdfkeywords={},
+  pdfproducer={source in markdown},
+  pdfcreator={pdflatex}
+]{hyperref}
 %\usepackage{calc}
 \usetikzlibrary{calc}
 \usepackage{graphicx}
