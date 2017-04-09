@@ -32,6 +32,73 @@ mobonly = 0
 pconly = 0
 last = 0
 
+import re
+
+rege = re.compile('&')
+regdollar = re.compile('\$')
+regporc = re.compile('%')
+reghash = re.compile('([^\n](?<!\n#)(?<!\n##)(?<!\n###)(?<!\n####)(?<!\n#####))#')
+regtraco = re.compile('(.*\\w)-(\\w.*)')
+regaspas = re.compile('"([^-].+?)"(?!-)')
+regaspas2 = re.compile('\[([^]]*)\]\(([^)]*\w)"-(\w[^)]*)\)')
+regespacos = re.compile(' $', re.M)
+regsecoes = re.compile('(^(?![#\n\[])[^\n]*)((\n)+^)(# )', re.M)
+regsecoes2 = re.compile('(^(?![#\n\[])[^\n]*)((\n)+^)(## )', re.M)
+regsecoes3 = re.compile('(^(?![#\n\[])[^\n]*)((\n)+^)(### )', re.M)
+
+def emloop(reg, xp, escapando_):
+	escapando_tmp = ""
+	while escapando_tmp != escapando_:
+		escapando_tmp = escapando_
+		escapando_ = reg.sub(xp, escapando_)
+	return escapando_
+
+def escapar(escapando):
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = rege.sub('\&{}', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = regdollar.sub('\${}', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = regporc.sub('\%{}', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(reghash, r"\1\hash{}", escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(regtraco, r'\1"-\2', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(regaspas, r'\\textquotedblleft \1\\textquotedblright{}', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(regaspas2, r'[\1](\2-\3)', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(regespacos, r'', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = regsecoes.sub(r'\1\\fimsec\2\4', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = regsecoes2.sub(r'\1\\fimsubsec\2\4', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = regsecoes3.sub(r'\1\\fimsubsubsec\2\4', escapando)
+	return escapando
+
+def escapar_tmp(arquivo):
+	fmd = open(fontes + '/' + dd + '/' + arquivo + '.md','r', encoding='UTF-8')
+	escapado = escapar(fmd.read())
+	fmd.close()
+	fmd = open(fontes + '/' + dd + '/' + arquivo + '_tmp.md','w', encoding='UTF-8')
+	fmd.write(escapado)
+	fmd.close()
+	return
+
+
 import unicodedata
 #dirs = [unicodedata.normalize('NFC', f) for f in os.listdir(ufontes)]
 dirs = os.listdir(path)
@@ -72,6 +139,8 @@ while True:
 	indice = eval(input("crie o PDF: ") or last)
 	copia = indice
 	last = indice
+
+
 	for index, d in enumerate(dirs, 1):
 		if indice < 0:
 			indice = 0
@@ -79,12 +148,22 @@ while True:
 			continue
 		if copia < 0 and index < -copia:
 			continue
-
 		dd = d.decode('utf-8')
 		ds = dd.replace("_", " ")
 		#print(d)
 		#print(dd)
 		print(str(index) + " - " + ds + ":")
+
+		# escapa os caracteres
+
+		sys.stdout.write("tratando a entrada..")
+		sys.stdout.flush()	
+		escapar_tmp('artigo')
+		sys.stdout.write(";")
+		escapar_tmp('comments')
+		print("....ok")
+
+
 		for i in range(2):
 			if i == 0 and mobonly:
 				continue

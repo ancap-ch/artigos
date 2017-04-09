@@ -1,6 +1,12 @@
 ﻿regex sublime
 
 
+do mises.br
+
+\[\[(\d+)\]\]\(#_ftn\d+\)
+[^\1]
+
+
 
 
 troca os - por "-  ... deve ser aplicado até o documento parar de "mudar"

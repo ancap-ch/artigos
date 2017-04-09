@@ -6,7 +6,8 @@
     \fi
   \else
   \fi % a próxima linha já deve ser o TOC
-  \renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
+  %\renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
+  \renewcommand\cftaftertoctitle{\par\vskip-0.65em}
   \tableofcontents
   \etocifwasempty 
   {
@@ -16,12 +17,26 @@
     \fi
   }
   {
-  \noindent\hrulefill
+  %\psvectorian{47} %
+  \ifdefined\mobile
+  \def \hr{\leavevmode\leaders\hrule height 0.550pt\hfill\kern0pt}
+  \noindent\raisebox{.190pt}{\pgfornament[width=.068\textwidth]{14}}\noindent\hr
+  \else
+  \def \hr{\leavevmode\leaders\hrule height 0.532pt\hfill\kern0pt}
+  \noindent\raisebox{.190pt}{\pgfornament[width=.035\textwidth]{14}}\noindent\hr
+  \fi
+  %\noindent\hr\raisebox{.300pt}{\pgfornament[width=.050\textwidth]{84}}\noindent\hr\hr\hr\hr\hr
+  %\noindent\hr\raisebox{.580pt}{\pgfornament[width=.111\textwidth]{89}}\noindent\hr\hr
+  %\noindent\hrulefill
   \ifdefined\mobile
     \thispagestyle{empty}
     \clearpage
   \else
-    \newline
+    \ifdefined\comecaseparado
+      \clearpage
+    \else
+      \newline
+    \fi
   \fi
   }
 
@@ -53,4 +68,4 @@
 
 \blfootnote{$ ^\sim $\poster}
 
-\markdownInput{\fontes/\caminho/artigo.md}
+\markdownInput{\fontes/\caminho/artigo_tmp.md}

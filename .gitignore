@@ -3,3 +3,5 @@ pdfs/
 *.jpg
 *.jpeg
 *.gif
+*.pdf
+*_tmp.md
