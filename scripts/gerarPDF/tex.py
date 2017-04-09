@@ -56,7 +56,7 @@ while True:
 			sys.stdout.write("pconly, ")
 		sys.stdout.flush()	
 		print("\n------")
-		print("1- vai\n2- debug ON/OFF\n3- mob only ON/OFF\n4- PC only ON/OFF\n5- passagens 3/2")
+		print("1- vai\n2- debug ON/OFF\n3- mob only ON/OFF\n4- PC only ON/OFF\n5- passagens x/2")
 		continua = eval(input("mude as opcoes: ") or "1")
 		if continua == 1 or continua == 0:
 			break
@@ -67,7 +67,7 @@ while True:
 		if continua == 4:
 			pconly = 1 - pconly
 		if continua == 5:
-			passagens = (1-(passagens-2)) + 2
+			passagens =  eval(input("escolha o numero de passagens: ") or "2")
 	print("------")
 	indice = eval(input("crie o PDF: ") or last)
 	copia = indice

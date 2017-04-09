@@ -1,3 +1,5 @@
+\def \caixa {\nopagebreak\hfill\textcolor{lightgray}{$\Box$}}
+
 \ifdefined\mobile
   \input{\modelos/mobile.tex}
 \else
@@ -21,11 +23,16 @@
 %\usepackage{geometry}
 %\usepackage[left=0cm,top=0cm,right=0cm,bottom=0cm,marginparwidth=0mm,marginparsep=0mm,margin=0cm]{geometry}
 
+
 % para o markdown
 \usepackage[footnotes,definitionLists,hashEnumerators,smartEllipses, hybrid]{markdown}
   \ifdefined\mobile
     \markdownSetup{rendererPrototypes={
       link = {\href{#2}{#1}}
+    }}
+  \else
+    \markdownSetup{rendererPrototypes={
+      link = {\href{#2}{#1}\footnoteB{\href{#2}{#2}}}
     }}
   \fi
 \newcommand{\hash}{\#}
@@ -117,14 +124,57 @@ pdftex,
 \makeatother
 % https://tex.stackexchange.com/questions/250221/supressing-the-footnote-number
 
-\usepackage[hang,flushmargin]{footmisc}
+\makeatletter
+\newcommand*{\myfnsymbolsingle}[1]{%
+  \ensuremath{%
+    \ifcase#1% 0
+    \or % 1
+      *%   
+    \or % 2
+      \dagger
+    \or % 3  
+      \ddagger
+    \or % 4   
+      \mathsection
+    \or % 5
+      \mathparagraph
+    \else % >= 6
+      \@ctrerr  
+    \fi
+  }%   
+}   
+\makeatother
+\newcommand*{\myfnsymbol}[1]{%
+  \myfnsymbolsingle{\value{#1}}%
+}
+
+%\usepackage[hang,flushmargin]{footmisc}
+\usepackage[flushmargin]{footmisc}
+\usepackage{bigfoot}
+
+
+\DeclareNewFootnote{default}
+\DeclareNewFootnote{C}[alph]
+\DeclareNewFootnote[para]{B}[fnsymbol]
+\MakeSortedPerPage{footnoteB}
+\MakeSortedPerPage{footnoteC}
+
+\usepackage{alphalph}
+\newalphalph{\myfnsymbolmult}[mult]{\myfnsymbolsingle}{}
+
+\renewcommand*{\thefootnoteB}{%
+  \myfnsymbolmult{\value{footnoteB}}%
+}
+\renewcommand{\thefootnoteC}{\alphalph{\value{footnoteC}}}
+
 \usepackage{color}
 
 \let\oldfootnote\footnote
 % adapted from https://tex.stackexchange.com/questions/315804/strip-last-character-from-parameter-if-it-is-s
 %\def\striplastS#1{\striplastSa{#1}#1\end .\end\eend}
 %\def\striplastSa#1#2.\end#3\eend{\ifx\end#3\end#1\else#2\fi}
-\renewcommand{\footnote}[1]{\oldfootnote{#1\nopagebreak\hfill\textcolor{lightgray}{$\Box$}}}
+\renewcommand{\footnote}[1]{\oldfootnote{#1\caixa}}
+\newcommand{\nota}[1]{\footnoteC{#1\caixa}}
 
 \def \fimsec {}
 \def \fimsubsec {}
