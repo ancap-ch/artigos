@@ -1,0 +1,3 @@
+Aqui temos um texto que fará uso de uma nota de rodapé[1].
+E no final do texto temos as nossas definições de notas de rodapé:
+\[1\]: A nota de rodapé encontra"-se aqui.\fimsubsec

@@ -1,0 +1,11 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
+\select@language {portuguese}
+\contentsline {section}{\numberline {1}Escrita, leitura e organiza\IeC {\c c}\IeC {\~a}o}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Uma alternativa ao Facebook e aos blogs}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}PDF}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Editores}{3}{section.2}
+\contentsline {section}{\numberline {3}Publica\IeC {\c c}\IeC {\~a}o}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Online}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}PDF}{5}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Overleaf}{5}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Dicas}{5}{subsubsection.3.2.2}

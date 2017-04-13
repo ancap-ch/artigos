@@ -159,7 +159,7 @@ pdftex,
 
 \ifdefined\mobile
   \usepackage[hang,flushmargin,multiple]{footmisc}
-  \newcommand{\nota}[1]{\blfootnote{$ ^\sim $#1\caixa}}
+  \newcommand{\nota}[1]{[#1]}
   \let\oldfootnote\footnote
   \renewcommand{\footnote}[1]{\oldfootnote{#1\caixa}}
 \else

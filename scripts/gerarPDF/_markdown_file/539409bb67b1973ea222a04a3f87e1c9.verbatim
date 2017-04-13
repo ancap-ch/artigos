@@ -1,0 +1,5 @@
+    `<http://link.com>`
+* Devem estar separadas entre si por uma linha em branco.
+* São escritas desta maneira:
+  Usando uma nota de rodapé[^1].
+  [^1]: Definindo uma nota de rodapé.

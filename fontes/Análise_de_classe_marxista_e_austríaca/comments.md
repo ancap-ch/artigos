@@ -1,0 +1,1 @@
+Texto retirado de [Libertyzine](https://libertyzine.blogspot.com.br/2007/02/anlise-de-classe-marxista-e-austraca.html).

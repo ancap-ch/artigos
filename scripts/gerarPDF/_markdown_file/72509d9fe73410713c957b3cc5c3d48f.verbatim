@@ -1,0 +1,5 @@
+  `![referencia](imagem.jpg \textquotedblleft Legenda\textquotedblright{})`;
+
+    * E ter seu índice -- que é automaticamente criado -- referenciado, assim: `\ref{fig:referencia}`;
+    * E a página onde a figura se encontra, assim: `\pageref{fig:referencia}`;
+* Podem não aparecer no local que você deseja. Você pode querer mudá"-las de posição ou então utilizar o comando `\clearpage` para ter uma página em branco preenchida com figuras que estão \textquotedblleft na fila\textquotedblright{} para serem desenhadas.
