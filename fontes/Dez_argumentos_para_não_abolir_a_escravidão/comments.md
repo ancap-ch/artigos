@@ -1,2 +1,1 @@
-Texto retirado de RothbardBrasil:\newline
-`<http://rothbardbrasil.com/dez-argumentos-para-nao-abolir-a-escravidao>`
+Texto retirado de [RothbardBrasil](http://rothbardbrasil.com/dez-argumentos-para-nao-abolir-a-escravidao)

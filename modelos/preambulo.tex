@@ -33,13 +33,14 @@
     }}
   \else
     \markdownSetup{rendererPrototypes={
-      link = {\href{#2}{#1}\footnoteB{\href{#2}{#2}}}
+      link = {\href{#2}{#1}\footnoteB{\url{#2}}}
     }}
   \fi
 \newcommand{\hash}{\#}
 
-\usepackage[portuguese]{babel}
-\usepackage{microtype}
+
+\usepackage[brazil]{babel}
+\usepackage[babel=true]{microtype}
 \input{\modelos/hifens}
 
 \usepackage{tocloft} % para mudar o titulo do indice
@@ -47,6 +48,7 @@
 % https://tex.stackexchange.com/questions/94961/how-to-check-in-latex-whether-the-table-of-content-is-empty-or-not-before-added
 \etocchecksemptiness % do not display empty local table of contents
 \etocnotocifnotoc % do not display empty global table of contents
+
 
 
 % usado para a capa...
@@ -72,6 +74,11 @@ pdftex,
 \usepackage{ifthen}
 
 
+\DeclareUrlCommand\Hurl{%
+  \def\UrlLeft{\langle}%
+  \def\UrlRight{\rangle}%
+}
+\renewcommand*{\UrlFont}{\ttfamily\scriptsize\relax}
 
 %\usepackage{psvectorian}
 %\let\clipbox\relax
@@ -79,7 +86,7 @@ pdftex,
 
 
 % usado par ao índice
-\addto\captionsportuguese{
+\addto\captionsbrazil{
   \renewcommand{\contentsname}
     {}% A frase que aparece no lugar de "Conteúdo" no índice
 }
@@ -128,7 +135,7 @@ pdftex,
 
 % para listar o link da discussão e a data:
 \makeatletter
-\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\def\blfootnote{\xdef\@thefnmark{$ \sim $}\@footnotetext}
 \makeatother
 % https://tex.stackexchange.com/questions/250221/supressing-the-footnote-number
 
@@ -155,7 +162,20 @@ pdftex,
 \newcommand*{\myfnsymbol}[1]{%
   \myfnsymbolsingle{\value{#1}}%
 }
-
+\makeatletter
+\newcommand*{\greekfnsymbolsingle}[1]{%
+  \ensuremath{%
+  \ifcase#1\or\alpha\or\beta\or\gamma\or\delta\or\varepsilon
+    \or\zeta\or\eta\or\theta\or\iota\or\kappa\or\lambda
+    \or\mu\or\nu\or\xi\or o\or\pi\or\varrho\or\sigma
+    \or\tau\or\upsilon\or\phi\or\chi\or\psi\or\omega
+    \else\@ctrerr\fi
+  }%   
+}   
+\makeatother
+\newcommand*{\greekfnsymbol}[1]{%
+  \greekfnsymbolsingle{\value{#1}}%
+}
 
 \ifdefined\mobile
   \usepackage[hang,flushmargin,multiple]{footmisc}
@@ -166,17 +186,20 @@ pdftex,
   \usepackage[flushmargin,multiple]{footmisc}
   \usepackage{bigfoot}
   \DeclareNewFootnote{default}
-  \DeclareNewFootnote{C}[alph]
+  \DeclareNewFootnote[para]{C}
   \DeclareNewFootnote[para]{B}[fnsymbol]
   \MakeSortedPerPage{footnoteB}
   \MakeSortedPerPage{footnoteC}
   \usepackage{alphalph}
   \newalphalph{\myfnsymbolmult}[mult]{\myfnsymbolsingle}{}
+  \newalphalph{\greekfnsymbolmult}[mult]{\greekfnsymbolsingle}{}
 
   \renewcommand*{\thefootnoteB}{%
     \myfnsymbolmult{\value{footnoteB}}%
   }
-  \renewcommand{\thefootnoteC}{\alphalph{\value{footnoteC}}}
+  \renewcommand*{\thefootnoteC}{%
+    \greekfnsymbolmult{\value{footnoteC}}%
+  }
   \newcommand{\nota}[1]{\footnoteC{#1\caixa}}
   \let\oldfootnote\footnote
   \renewcommand{\footnote}[1]{\oldfootnote{#1\caixa}}
@@ -187,18 +210,3 @@ pdftex,
 \def \fimsubsec {}
 \def \fimsubsubsec {}
 
-% \ifdefined\mobile
-%   \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
-%   \def \fimsubsec {\hfill\textcolor{lightgray}{$\Box$}}
-%   \def \fimsubsubsec {\hfill\textcolor{lightgray}{$\Box$}}
-% \else
-%   \ifdefined\separarSecoes
-%     \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
-%     \def \fimsubsec {}
-%     \def \fimsubsubsec {}
-%   \else
-%     \def \fimsec {}
-%     \def \fimsubsec {}
-%     \def \fimsubsubsec {}
-%   \fi
-% \fi

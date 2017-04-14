@@ -10,7 +10,7 @@ E os políticos estão sempre dispostos a fornecer o que as pessoas exigem deles
 
 Eles irão realizar todos os nossos sonhos e exigências, cuidar de nós desde o berço até o túmulo, e se certificar de que estamos felizes e contentes desde o início da manhã até o final da noite — e, claro, farão tudo isso sem elevar os gastos e ainda reduzindo impostos.
 
-Tais são os sonhos que constituem a democracia.\fimsec
+Tais são os sonhos que constituem a democracia.
 
 # Os pecados da democracia
 
@@ -22,7 +22,7 @@ Obviamente, a verdade é que isto simplesmente não tem como funcionar. O govern
 
 Não há realmente nada mais que eles possam fazer, como políticos. Eles não podem sequer pagar as contas de suas atividades, cuja fatura é enviada para os pagadores de impostos.
 
-É possível ver as consequências desse sistema ao seu redor, diariamente:\fimsubsec
+É possível ver as consequências desse sistema ao seu redor, diariamente:
 
 ## Burocracia
 
@@ -30,19 +30,19 @@ A democracia gerou, em todo o mundo, um enorme inchaço burocrático. A burocrac
 
 Nenhuma burocracia jamais vai à falência; os próprios burocratas não podem ser demitidos e eles raramente entram em conflito com a lei, uma vez que eles são a lei. Ao mesmo tempo em que gozam de impunidade, eles jogam um enorme fardo sobre o resto de nós, com as suas regras e regulamentos. A abertura de novas empresas é impedida e desestimulada por uma imensidão de leis e de custos burocráticos que lhes são impostas. Empresas já existentes também sofrem sob o peso da burocracia. Os custos burocráticos para se empreender — por menor que seja o empreendimento — são aviltantes.
 
-Os pobres e os que têm menos educação são os que mais sofrem com esse sistema. Em primeiro lugar porque o custo adicional gerado pela burocracia encarece sobremaneira o valor final de qualquer empreendimento, fazendo com que o uso de uma mão"-de"-obra pouco produtiva seja muito custoso. O resultado é um achatamento salarial. Em segundo, porque os pobres também têm de arcar com o financiamento do aparato burocrático, e isso se dá por meio de encargos sociais e trabalhistas que encarecem o valor final do seu salário. O resultado é um novo achatamento salarial. E terceiro, porque é muito difícil para eles estabelecerem o seu próprio negócio, uma vez que eles não têm como enfrentar a selva burocrática; pobre não pode se dar ao luxo de gastar dinheiro com propina.\fimsubsec
+Os pobres e os que têm menos educação são os que mais sofrem com esse sistema. Em primeiro lugar porque o custo adicional gerado pela burocracia encarece sobremaneira o valor final de qualquer empreendimento, fazendo com que o uso de uma mão"-de"-obra pouco produtiva seja muito custoso. O resultado é um achatamento salarial. Em segundo, porque os pobres também têm de arcar com o financiamento do aparato burocrático, e isso se dá por meio de encargos sociais e trabalhistas que encarecem o valor final do seu salário. O resultado é um novo achatamento salarial. E terceiro, porque é muito difícil para eles estabelecerem o seu próprio negócio, uma vez que eles não têm como enfrentar a selva burocrática; pobre não pode se dar ao luxo de gastar dinheiro com propina.
 
 ## Parasitismo
 
 Além dos burocratas, funcionários públicos e políticos, há um outro grupo de pessoas que se safa muito bem no sistema democrático: aquelas pessoas que comandam empresas e instituições que devem sua existência à generosidade do governo ou a privilégios especiais. Pense nos gestores de grandes empresas nacionais que são protegidas pelo governo contra a concorrência, tanto por meio de tarifas de importação quanto por agências reguladoras que cartelizam o mercado e impedem a entrada de empresas concorrentes. Pense naqueles setores industriais e agrícolas recebedores de fartos subsídios. Pense nos grandes bancos e nas grandes instituições financeiras que são protegidas pelo Banco Central.
 
-E há também as organizações sociais — sindicatos, movimentos raciais e sexuais, instituições culturais, a televisão pública, as agências assistenciais, os grupos ambientais e assim por diante — que recebem dinheiro diretamente do governo. Muitas das pessoas que comandam tais organizações não apenas têm empregos lucrativos e estáveis, como também possuem ligações íntimas com a burocracia estatal e com políticos, algo que garante vários privilégios e muito poder a estas organizações. Esta é uma forma de parasitismo institucionalizado, com a cumplicidade de nosso sistema democrático.\fimsubsec
+E há também as organizações sociais — sindicatos, movimentos raciais e sexuais, instituições culturais, a televisão pública, as agências assistenciais, os grupos ambientais e assim por diante — que recebem dinheiro diretamente do governo. Muitas das pessoas que comandam tais organizações não apenas têm empregos lucrativos e estáveis, como também possuem ligações íntimas com a burocracia estatal e com políticos, algo que garante vários privilégios e muito poder a estas organizações. Esta é uma forma de parasitismo institucionalizado, com a cumplicidade de nosso sistema democrático.
 
 ## Megalomania
 
 Frustrado por sua incapacidade de realmente mudar a sociedade, o governo lança regularmente megaprojetos para ajudar a recuperar um setor industrial decadente ou para servir a um outro propósito nobre. Invariavelmente, essas ações só aumentam os problemas e elas sempre custam muito mais do que o planejado.
 
-Pense nas reformas educacionais, na reforma da saúde, nos projetos de infraestruturas e seus vários elefantes brancos da energia (o programa de etanol nos EUA e os projetos de energia eólica costeira na Europa são bons exemplos que mostram que a incompetência estatal independe da riqueza da nação). As guerras também podem ser vistas como ‘projetos públicos’, realizados pelo governo para desviar a atenção de problemas internos, angariar apoio público, criar empregos para as classes desprivilegiadas e enormes lucros diretos para empresas favorecidas, as quais, por sua vez, patrocinam as campanhas eleitorais dos políticos e lhes oferecem empregos quando eles saem da vida pública. (Nem é preciso dizer que os políticos nunca lutam nas guerras que eles iniciam.)\fimsubsec
+Pense nas reformas educacionais, na reforma da saúde, nos projetos de infraestruturas e seus vários elefantes brancos da energia (o programa de etanol nos EUA e os projetos de energia eólica costeira na Europa são bons exemplos que mostram que a incompetência estatal independe da riqueza da nação). As guerras também podem ser vistas como ‘projetos públicos’, realizados pelo governo para desviar a atenção de problemas internos, angariar apoio público, criar empregos para as classes desprivilegiadas e enormes lucros diretos para empresas favorecidas, as quais, por sua vez, patrocinam as campanhas eleitorais dos políticos e lhes oferecem empregos quando eles saem da vida pública. (Nem é preciso dizer que os políticos nunca lutam nas guerras que eles iniciam.)
 
 ## Assistencialismo
 
@@ -50,7 +50,7 @@ Os políticos, que são eleitos para combater a pobreza e a desigualdade, natura
 
 Na Grã"-Bretanha, o governo gasta um terço de seu orçamento com o estado assistencialista. Na Itália e na França, esse número se aproxima de 40%. Muitas organizações sociais (sindicatos, fundos de pensão de estatais, agências governamentais de emprego) têm interesse em preservar e expandir o estado assistencialista. Típico da maneira como o governo democrático funciona, o estado não oferece nenhuma opção e não celebra contratos com os seus cidadãos. Todo mundo é obrigado a arcar com os enormes gastos do seguro"-desemprego e pagar elevadas taxas para a Previdência Social, mas ninguém sabe os benefícios que terá no futuro. O dinheiro que tiveram de entregar ao governo já foi gasto. O inevitável colapso da Previdência Social que se aproxima é o exemplo mais notório desse tipo de libertinagem.
 
-E sempre tenha em mente que o assistencialismo não serve apenas os ‘desprivilegiados’. Uma enorme fatia de ‘assistência’ vai para os ricos — por exemplo, para os bancos que foram socorridos com montantes na ordem de US\$ 700 bilhões (depois de os executivos terem se auto"-premiado com bônus consideráveis), para as grandes empresas que vivenciam dificuldades e que o governo decretou serem "grandes demais para falir"{} e, é claro, para toda a sorte de funcionários públicos, que se aposentam com valores magnânimos.\fimsubsec
+E sempre tenha em mente que o assistencialismo não serve apenas os ‘desprivilegiados’. Uma enorme fatia de ‘assistência’ vai para os ricos — por exemplo, para os bancos que foram socorridos com montantes na ordem de US$ 700 bilhões (depois de os executivos terem se auto"-premiado com bônus consideráveis), para as grandes empresas que vivenciam dificuldades e que o governo decretou serem "grandes demais para falir"{} e, é claro, para toda a sorte de funcionários públicos, que se aposentam com valores magnânimos.
 
 ## Comportamento antissocial e crime
 
@@ -58,15 +58,15 @@ O estado assistencialista democrático estimula a irresponsabilidade e o comport
 
 Assim, pessoas imprudentes e imediatistas são recompensadas por comportamentos antissociais. Como elas estão acostumadas que o governo lhes forneça tudo de que elas necessitam, elas desenvolvem a mentalidade dos aproveitadores, daqueles que não querem trabalhar para o seu próprio sustento. Para piorar a situação, legislações trabalhistas rígidas (assim como leis anti"-discriminação) tornam difícil para os empregadores se livrarem de funcionários incompetentes. Da mesma forma, os regulamentos governamentais tornam quase impossível expulsar alunos ou despedir professores que se comportam mal ou têm mau desempenho.
 
-Em programas públicos de habitação, é muito difícil despejar alguém que seja um incômodo para os vizinhos. Os grupos que se comportam mal em centros de acolhimento noturnos não podem ter a entrada recusada por causa de leis anti"-discriminação. Para agravar ainda mais, o governo muitas vezes cria programas assistenciais para grupos antissociais, como vândalos. Na Inglaterra, por exemplo, há programas de assistência para hooligans. Desta forma, a delinquência é recompensada e encorajada.\fimsubsec
+Em programas públicos de habitação, é muito difícil despejar alguém que seja um incômodo para os vizinhos. Os grupos que se comportam mal em centros de acolhimento noturnos não podem ter a entrada recusada por causa de leis anti"-discriminação. Para agravar ainda mais, o governo muitas vezes cria programas assistenciais para grupos antissociais, como vândalos. Na Inglaterra, por exemplo, há programas de assistência para hooligans. Desta forma, a delinquência é recompensada e encorajada.
 
 ## Mediocridade e padrões mais baixos
 
-Em qualquer sociedade, a maioria tende a ser constituída pelos mais pobres e não pelos membros mais bem sucedidos e competentes. Sendo assim, em uma democracia, há inevitavelmente uma pressão sobre os políticos para redistribuírem riqueza — para tirar dos ricos e dar aos pobres. Desta forma, o sucesso empreendedorial e a excelência são punidos por impostos progressivos. Logo, na democracia, é de se esperar que haja um emburrecimento da população e uma diminuição de normas gerais de cultura e etiqueta. Onde a maioria reina, a mediocridade torna"-se a norma.\fimsubsec
+Em qualquer sociedade, a maioria tende a ser constituída pelos mais pobres e não pelos membros mais bem sucedidos e competentes. Sendo assim, em uma democracia, há inevitavelmente uma pressão sobre os políticos para redistribuírem riqueza — para tirar dos ricos e dar aos pobres. Desta forma, o sucesso empreendedorial e a excelência são punidos por impostos progressivos. Logo, na democracia, é de se esperar que haja um emburrecimento da população e uma diminuição de normas gerais de cultura e etiqueta. Onde a maioria reina, a mediocridade torna"-se a norma.
 
 ## Cultura do descontentamento
 
-Em uma democracia, as divergências privadas estão continuamente se transformando em conflitos sociais. Isso ocorre porque o estado interfere em todas as relações pessoais e sociais. Tudo o que acontece de errado em algum lugar, desde uma escola pública mal gerenciada a um tumulto local, logo se transforma em um problema nacional (ou mesmo internacional) para o qual os políticos têm de encontrar uma solução. Todo mundo se sente impelido e encorajado a impor sua visão do mundo sobre os outros. Grupos que se sentem injustiçados organizam bloqueios, protestos ou fazem greve. Isso cria um sentimento geral de frustração e descontentamento.\fimsubsec
+Em uma democracia, as divergências privadas estão continuamente se transformando em conflitos sociais. Isso ocorre porque o estado interfere em todas as relações pessoais e sociais. Tudo o que acontece de errado em algum lugar, desde uma escola pública mal gerenciada a um tumulto local, logo se transforma em um problema nacional (ou mesmo internacional) para o qual os políticos têm de encontrar uma solução. Todo mundo se sente impelido e encorajado a impor sua visão do mundo sobre os outros. Grupos que se sentem injustiçados organizam bloqueios, protestos ou fazem greve. Isso cria um sentimento geral de frustração e descontentamento.
 
 ## Visão de curto prazo
 
@@ -74,7 +74,7 @@ Em uma democracia, o incentivo principal dos políticos é o desejo de serem ree
 
 Um ex"-ministro holandês dos Assuntos Sociais disse certa vez que "os líderes políticos deveriam governar como se não houvesse mais eleições. Dessa forma, eles seriam capazes de tomar a visão de longo prazo das coisas"{}. Mas isso é exatamente o que eles não podem fazer, é claro. Como o autor americano Fareed Zakaria disse em uma entrevista: "Eu acho que estamos diante de uma crise real no mundo ocidental. O que você vê é a incapacidade fundamental em toda a sociedade ocidental de fazer uma coisa, que é a de impor algum tipo de sofrimento de curto prazo para ganhos em longo prazo. Sempre que um governo tenta propor algum tipo de sofrimento de curto prazo, há uma revolta. E a revolta é quase sempre bem sucedida"{}.
 
-Como as pessoas são encorajadas a se comportar como aproveitadores em uma democracia, e como os políticos se comportam mais como inquilinos do que os proprietários de imóveis, pois eles estão apenas temporariamente no cargo, este resultado não deve surpreender ninguém. Alguém que aluga ou arrenda alguma coisa possui muito menos incentivos para ter cuidado e pensar no longo prazo do que um genuíno proprietário.\fimsec
+Como as pessoas são encorajadas a se comportar como aproveitadores em uma democracia, e como os políticos se comportam mais como inquilinos do que os proprietários de imóveis, pois eles estão apenas temporariamente no cargo, este resultado não deve surpreender ninguém. Alguém que aluga ou arrenda alguma coisa possui muito menos incentivos para ter cuidado e pensar no longo prazo do que um genuíno proprietário.
 
 # Por que tudo continua piorando
 

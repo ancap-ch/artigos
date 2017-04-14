@@ -1,3 +1,24 @@
+  \ifdefined\URL
+    \ifdefined\CriadorDestePDF
+      \ifdefined\mobile
+        \def \poster {Discussão em \href{\URL}{AncapChannel}, por \textsc{\CriadorDestePDF}.}
+      \else
+        \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\href{\URL}{\URL}}, por \textsc{\CriadorDestePDF}.}
+      \fi
+    \else
+      \ifdefined\mobile
+        \def \poster {Discussão em \href{\URL}{AncapChannel}.}
+      \else
+        \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\url{\URL}}.}
+      \fi
+    \fi
+  \else
+    \ifdefined\CriadorDestePDF
+      \def \poster {Arquivo gerado por \textsc{\CriadorDestePDF}.}
+    \else
+      \def \poster {}
+    \fi
+  \fi
   \ifdefined\incluirCapa
 	\input{\modelos/capa.tex}
     \ifdefined\mobile
@@ -6,6 +27,14 @@
     \fi
   \else
   \fi % a próxima linha já deve ser o TOC
+  \ifdefined\mobile
+    \let\oldfootnoterule\footnoterule
+    \renewcommand*\footnoterule{}
+  \else\ifdefined\comecaseparado
+    \let\oldfootnoterule\defaultfootnoterule
+    \renewcommand*\defaultfootnoterule{}
+  \fi\fi
+  \blfootnote{\today. \poster\caixa}
   %\renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
   \renewcommand\cftaftertoctitle{\par\vskip-0.65em}
   \tableofcontents
@@ -31,15 +60,15 @@
   \ifdefined\mobile
     \thispagestyle{empty}
     \clearpage
+    \let\footnoterule\oldfootnoterule
   \else
     \ifdefined\comecaseparado
       \clearpage
+      \let\defaultfootnoterule\oldfootnoterule
     \else
-      \newline
     \fi
   \fi
   }
-
 \frenchspacing 
 \markdownSetup{rendererPrototypes={
   image = {\begin{figure}[hbt!]
@@ -51,21 +80,4 @@
     \label{fig:#1}%
     \end{figure}}
 }}
-
-  \ifdefined\URL
-    \ifdefined\CriadorDestePDF
-      \def \poster {\today. Discussão em: <\URL>, por \textsc{\CriadorDestePDF}}
-    \else
-      \def \poster {\today. Discussão em: <\URL>}
-    \fi
-  \else
-    \ifdefined\CriadorDestePDF
-      \def \poster {\today. Arquivo gerado por \textsc{\CriadorDestePDF}}
-    \else
-      \def \poster {\today}
-    \fi
-  \fi
-
-\blfootnote{$ ^\sim $\poster}
-
 \markdownInput{\fontes/\caminho/artigo_tmp.md}

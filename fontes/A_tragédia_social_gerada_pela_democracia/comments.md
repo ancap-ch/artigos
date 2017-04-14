@@ -1,3 +1,1 @@
-O artigo acima foi extraído do livro *Além da Democracia*, à venda no IMB, retirado de RothbardBrasil
-
-`<http://rothbardbrasil.com/a-tragedia-social-gerada-pela-democracia>`
+O artigo acima foi extraído do livro *Além da Democracia*, à venda no IMB, retirado de [RothbardBrasil](http://rothbardbrasil.com/a-tragedia-social-gerada-pela-democracia).

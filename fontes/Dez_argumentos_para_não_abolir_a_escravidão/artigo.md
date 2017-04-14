@@ -1,4 +1,4 @@
-\def \fimsubsubsec {\hfill\textcolor{lightgray}{$\Box$}}
+\def \fimsubsubsec {\caixa}
 
 \DECORAR{A}{} escravidão existiu por milhares de anos, em todos os tipos de sociedade e em todas as partes do mundo.  Imaginar como seria a vida social dos homens sem a escravidão era algo que exigia um esforço extraordinário.  Entretanto, de tempos em tempos, sempre surgiam alguns excêntricos que se opunham a ela, a maioria argumentando que a escravidão era uma monstruosidade moral e que, portanto, as pessoas deveriam aboli"-la.  Tais pessoas geralmente provocavam diversas reações, que iam desde a galhofa educada até o escárnio ríspido, chegando até mesmo a agressões violentas.
 

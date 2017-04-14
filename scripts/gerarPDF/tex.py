@@ -5,7 +5,6 @@ import sys
 from io import TextIOWrapper
 sys.stdout = TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-
 # from pylatex import Document, Package
 # from pylatex.utils import escape_latex
 
@@ -13,6 +12,20 @@ import argparse
 import os
 import subprocess
 import shutil
+
+
+# clean
+try:
+	shutil.rmtree('_markdown_file')
+	os.remove('file.aux')
+	os.remove('file.log')
+	os.remove('file.markdown.lua')
+	os.remove('file.markdown.out')
+	os.remove('file.out')
+	os.remove('file.tex')
+	os.remove('file.toc')
+except OSError:
+    pass
 
 
 # print(escape_latex('\nAlso some crazy characters: $&#{}'))
@@ -31,16 +44,19 @@ passagens = 2
 mobonly = 0
 pconly = 0
 last = 0
+abrir = 0
 
 import re
 
-rege = re.compile('&')
-regdollar = re.compile('\$')
-regporc = re.compile('%')
-reghash = re.compile('([^\n](?<!\n#)(?<!\n##)(?<!\n###)(?<!\n####)(?<!\n#####))#')
-regtraco = re.compile('(.*\\w)-(\\w.*)')
-regaspas = re.compile('"([^-].+?)"(?!-)')
-regaspas2 = re.compile('\[([^]]*)\]\(([^)]*\w)"-(\w[^)]*)\)')
+rege = re.compile('&') # & -> \&{}
+regdollar = re.compile('\$') # $ -> \${}
+regporc = re.compile('%') # % -> \%{}
+reghash = re.compile('([^\n](?<!\n#)(?<!\n##)(?<!\n###)(?<!\n####)(?<!\n#####))#') # # -> \hash{}
+regtraco = re.compile('(.*\\w)-(\\w.*)') # ab-cd -> ab"-cd
+regaspas = re.compile('"([^-].+?)"(?!-)') # "aa" -> \QL aa \QR{}
+regaspas2 = re.compile('\[([^]]*)\]\(([^)]*\w)"-(\w[^)]*)\)') # [](ab"-cd) -> [](ab-cd)
+regaspas3 = re.compile('!\[([^]]*)\]\(([^) ]*) \\\\textquotedblleft\{\}([^\\\\]*)\\\\textquotedblright\{\}\)') # [](ab"-cd) -> [](ab-cd)
+regunder = re.compile('\[([^]]*)\]\((.*?)_(.*?)\)') # [](ab_cd) -> [](ab\{}cd) # TODO
 regespacos = re.compile(' $', re.M)
 regsecoes = re.compile('(^(?![#\n\[])[^\n]*)((\n)+^)(# )', re.M)
 regsecoes2 = re.compile('(^(?![#\n\[])[^\n]*)((\n)+^)(## )', re.M)
@@ -65,16 +81,22 @@ def escapar(escapando):
 	escapando = regporc.sub('\%{}', escapando)
 	sys.stdout.write(",")
 	sys.stdout.flush()	
-	escapando = emloop(reghash, r"\1\hash{}", escapando)
+	escapando = emloop(reghash, r"\1{\\hash}", escapando)
 	sys.stdout.write(",")
 	sys.stdout.flush()	
 	escapando = emloop(regtraco, r'\1"-\2', escapando)
 	sys.stdout.write(",")
 	sys.stdout.flush()	
-	escapando = emloop(regaspas, r'\\textquotedblleft \1\\textquotedblright{}', escapando)
+	escapando = emloop(regaspas, r'\\textquotedblleft{}\1\\textquotedblright{}', escapando)
 	sys.stdout.write(",")
 	sys.stdout.flush()	
 	escapando = emloop(regaspas2, r'[\1](\2-\3)', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(regaspas3, r'![\1](\2 "\3")', escapando)
+	sys.stdout.write(",")
+	sys.stdout.flush()	
+	escapando = emloop(regunder, r'[\1](\2{\\textunderscore}\3)', escapando)
 	sys.stdout.write(",")
 	sys.stdout.flush()	
 	escapando = emloop(regespacos, r'', escapando)
@@ -121,9 +143,11 @@ while True:
 			sys.stdout.write("mobonly, ")
 		if pconly:
 			sys.stdout.write("pconly, ")
+		if abrir:
+			sys.stdout.write("abrir, ")
 		sys.stdout.flush()	
 		print("\n------")
-		print("1- vai\n2- debug ON/OFF\n3- mob only ON/OFF\n4- PC only ON/OFF\n5- passagens x/2")
+		print("1- vai\n2- debug ON/OFF\n3- mob only ON/OFF\n4- PC only ON/OFF\n5- passagens x/2\n6- abrir ON/OFF")
 		continua = eval(input("mude as opcoes: ") or "1")
 		if continua == 1 or continua == 0:
 			break
@@ -135,6 +159,8 @@ while True:
 			pconly = 1 - pconly
 		if continua == 5:
 			passagens =  eval(input("escolha o numero de passagens: ") or "2")
+		if continua == 6:
+			abrir = 1 - abrir
 	print("------")
 	indice = eval(input("crie o PDF: ") or last)
 	copia = indice
@@ -162,7 +188,6 @@ while True:
 		sys.stdout.write(";")
 		escapar_tmp('comments')
 		print("....ok")
-
 
 		for i in range(2):
 			if i == 0 and mobonly:
@@ -211,7 +236,23 @@ while True:
 
 			if i == 0:
 				shutil.copyfile('file.pdf', saidas + '/PC/' + ds + '.pdf')
+				if abrir:
+					p = subprocess.Popen([
+						'C:/Program Files (x86)/Foxit Software/Foxit Reader/FoxitReader.exe',
+						saidas + '/PC/' + ds + '.pdf ',
+						'/A',
+						'nolock=1'
+						], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 			else:
 				shutil.copyfile('file.pdf', saidas + '/Mobile/' + ds + ' (mobile).pdf')
+				if abrir:
+					p = subprocess.Popen([
+						'C:/Program Files (x86)/Foxit Software/Foxit Reader/FoxitReader.exe',
+						saidas + '/Mobile/' + ds + ' (mobile).pdf',
+						'/A',
+						'nolock=1'
+						], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 			print("....ok")
 
+		os.remove(fontes + '/' + dd + '/' + 'artigo_tmp.md')
+		os.remove(fontes + '/' + dd + '/' + 'comments_tmp.md')

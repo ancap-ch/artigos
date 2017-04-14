@@ -2,7 +2,6 @@
 
 \DECORAR{O}{} principal ponto da escrita é trazer ideias, informações ou conhecimento para o leitor. Este irá entender o texto melhor se estas ideias estiverem bem estruturadas, e irá ver e sentir esta estrutura muito melhor se a forma tipográfica refletir a estrutura lógica e semântica do contexto.[^1]
 
-
 [^1]: Ver capítulo 2 [daqui](https://www.ime.usp.br/~reverbel/mac212"-02/material/lshortBR.pdf).
 
 O parágrafo é uma básica e importante unidade do texto que deve ser constituído por um pensamento coerente ou uma ideia. Suas quebras e continuações podem auxiliar o leitor a compreender o texto, uma vez que indicam uma alteração ou extensão de uma linha de pensamento. Desta forma, o leitor também lida com cadeias de pensamentos distintos e suas relações internas.
@@ -41,12 +40,12 @@ O programa \LaTeX[^3], através do formatador \TeX[^4] e do texto com marcaçõe
 No computador, escreve"-se por um editor de texto. Os mais populares são o _MS Word_ e o Bloco de Notas (que estou utilizando agora). Uma grande diferença entre ambos é a incapacidade deste de mudar a forma do texto visto pelo escritor (exceto uma mudança geral da fonte e seu tamanho). Um texto em _Markdown_ conta exatamente com tal incapacidade: conta apenas com algumas marcações textuais que indicam tais formas (como texto em negrito ou sublinhado). Algumas pessoas preferem esta forma de texto (o Bloco de Notas é popular, lembra?) pois não há grandes preocupações nem distrações estéticas no momento em que se produz conteúdo; é como preferir se concentrar em um local mais silencioso ou numa temperatura mais confortável.
 Você pode encontrar informações de como utilizar os marcadores em _Markdown_ [aqui](https://br.ancap.ch/t/26). Não se preocupe, é bem óbvio.
 
-![ed1](\fontes/\caminho/editor1.PNG "\\\)Editor padrão da plataforma discourse.")
+![ed1](\fontes/\caminho/editor1.PNG "Editor padrão da plataforma discourse.")
 
 O editor da figura~\ref{fig:ed1} já vem embutido em toda distribuição padrão do [sistema de discussão](https://www.discourse.org/) utilizado por este site. Tal editor conta com a opção de pré"-visualizar a forma que seu texto terá para o leitor e suporta _boa parte_ das marcações da linguagem _Markdown_. Até 2018 é esperado que o sistema seja atualizado para um mais simples e com mais funcionalidades.
 Como cada site pode mostrar um resultado diferente pro leitor a partir do mesmo arquivo _Markdown_, é aconselhável que você confira tal resultado ao publicar seu texto no site. Também é recomendável copiar o conteúdo do texto antes de postá"-lo pois você pode ter perdido conexão e dificilmente recuperará uma versão atualizada de seu texto (já aconteceu comigo).
 
-![ed2](\fontes/\caminho/editor2.PNG "\\\)Editor HackMD.")
+![ed2](\fontes/\caminho/editor2.PNG "Editor HackMD.")
 
 O editor da figura~\ref{fig:ed2} é o [HackMD](https://hackmd.io/) e também funciona pelo navegador. Ele suporta o modo de digitação _Emacs_ e _Vim_,[^5] que podem agilizar a escrita caso já se tenha experiência com estas tecnologias - são conhecimentos particularmente úteis para ajustar a formatação na publicação do texto. O editor também tem a opção de mostrar a pré"-visualização, além de poder ser escrito em colaboração com outras pessoas em tempo real, como um _Google Docs_ (mas bem mais "leve"). Vale lembrar que é sempre recomendável ter uma cópia salva dos arquivos _.md_ localmente em seu computador, uma maneira simples de evitar grandes frustações.
 
