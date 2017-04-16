@@ -33,15 +33,15 @@
     }}
   \else
     \markdownSetup{rendererPrototypes={
-      link = {\href{#2}{#1}\footnoteB{\url{#2}}}
+    link = {\href{#2}{#1}\footnoteB{\href{#2}{{\ttfamily\scriptsize\relax$ \langle $#2$ \rangle $}}}}
     }}
   \fi
 \newcommand{\hash}{\#}
 
 
 \usepackage[brazil]{babel}
-\usepackage[babel=true]{microtype}
-\input{\modelos/hifens}
+\usepackage[babel=true,kerning=true]{microtype}
+%\input{\modelos/hifens}
 
 \usepackage{tocloft} % para mudar o titulo do indice
 \usepackage{etoc} % para saber se tem indice ou não
@@ -65,7 +65,7 @@ pdftex,
   pdfsubject={Ancap/artigos},
   pdfkeywords={},
   pdfproducer={source in markdown},
-  pdfcreator={pdflatex}
+  pdfcreator={Thiago Machado da Silva}
 ]{hyperref}
 %\usepackage{calc}
 \usetikzlibrary{calc}
@@ -193,14 +193,14 @@ pdftex,
   \usepackage{alphalph}
   \newalphalph{\myfnsymbolmult}[mult]{\myfnsymbolsingle}{}
   \newalphalph{\greekfnsymbolmult}[mult]{\greekfnsymbolsingle}{}
-
+  
   \renewcommand*{\thefootnoteB}{%
     \myfnsymbolmult{\value{footnoteB}}%
   }
   \renewcommand*{\thefootnoteC}{%
     \greekfnsymbolmult{\value{footnoteC}}%
   }
-  \newcommand{\nota}[1]{\footnoteC{#1\caixa}}
+  \newcommand{\nota}[1]{\footnoteC{#1}}
   \let\oldfootnote\footnote
   \renewcommand{\footnote}[1]{\oldfootnote{#1\caixa}}
 \fi

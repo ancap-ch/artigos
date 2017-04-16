@@ -47,7 +47,7 @@ _A Empresa da Lei_\\\( ^a \\\) de Bruce L. Benson é o estudo empírico e histó
 #### The Machinery of Freedom
 _As Engrenagens da Liberdade_\\\( ^a \\\) de David D. Friedman apresenta o caso utilitário para o anarcocapitalismo: breve, fácil de ler e com muitas aplicações para a educação na proteção da propriedade.
 
-#### The State; Choice, Contract, Consent; Against Politics
+#### The State; Choice, Contract, Consent; A\\-gainst Politics
 Anthony de Jasay favorece um acercamento deôntico para a ética. Seu escrito -- em  _O Estado_\\\( ^a \\\), _Opção, Contrato, Consentimento_\\\( ^a \\\) e a excelente coleção de ensaios _Contra a Política_\\\( ^a \\\) — é teórico, com sabor de neoclássico e Teoria dos Jogos. Brilhante crítica da opinião pública e economia constitucional — e da noção de minarquismo.
 
 #### The Market for Liberty

@@ -77,23 +77,18 @@ O imposto sobre herança destrói o legado das famílias, e portanto de toda a s
 
 [^4]: Para uma discussão ética e moral mais profunda sobre impostos ver:
 
-    KOGOS, Paulo. **Imposto é Roubo e Estado é Gang Parte II. Disponível em:
+    KOGOS, Paulo. **[Imposto é Roubo e Estado é Gang Parte II](http://paulokogos.tumblr.com/post/77861919789/imposto-%C3%A9-roubo-e-estado-%C3%A9-gang-parte-22)**.
+    
 
-    http://paulokogos.tumblr.com/post/77861919789/imposto-\%C3\%A9"-roubo"-e"-estado-\%C3\%A9"-gang"-parte"-22
-
-[^5]: SCHUMPETER, Joseph. **Capitalism, Socialism \& Democracy**. 1943 Routledge 2003. Páginas 160 e 161.
+[^5]: SCHUMPETER, Joseph. **Capitalism, Socialism & Democracy**. 1943 Routledge 2003. Páginas 160 e 161.
 
 [^6]: ROTHBARD, Murray. **Making Economic Sense**. Ludwig von Mises Institute 2007. Página 360.
 
 [^7]: MISES, Ludwig von. **Ação Humana**. 1949. Instituto Ludwig von Mises Brasil 2010. Página 916.
 
-[^8]: MILLER, Daniel. **The Economics of the Estate Tax: An Update**
+[^8]: MILLER, Daniel. **[The Economics of the Estate Tax: An Update](https://tax.network/dmiller/economics"-estate"-tax"-update/)**
 
-    https://tax.network/dmiller/economics"-estate"-tax"-update/
-
-[^9]: TERRELL, Timothy. **The Family"-Wrecking Tax**
-
-    https://mises.org/library/family"-wrecking"-tax"-0.
+[^9]: TERRELL, Timothy. **[The Family-Wrecking Tax](https://mises.org/library/family-wrecking-tax-0)**
 
 [^10]: MARX, Karl; ENGELS, Friedrich. **Manifesto of the Communist Party**. 1848. Marxists Internet Archive 2010. Páginas 26 e 49.
 

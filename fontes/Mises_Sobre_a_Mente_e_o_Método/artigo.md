@@ -16,7 +16,7 @@ Mas Mises rejeitou tal forma de agir como se estivesse "acima de tudo"{}, insist
 
 Ele considerava essencial a explicar em detalhes as bases fundamentais da economia. Por esta razão, Mises dedicou uma parte significativa das suas atenções científicas aos problemas epistemológicos e metodológicos.
 
-A seguir, vou tentar explicar de forma sistemática a epistemologia de Mises e seus desdobramentos na economia misesiana, através, principalmente, de seus tratados Ação Humana, Theory and History, e The Ultimate Foundation of Economic Science.\fimsec
+A seguir, vou tentar explicar de forma sistemática a epistemologia de Mises e seus desdobramentos na economia misesiana, através, principalmente, de seus tratados Ação Humana, Theory and History, e The Ultimate Foundation of Economic Science.
 
 # "A priori"{} e "Categorias"{}
 
@@ -44,7 +44,7 @@ Um exemplo primário desse "equipamento mental"{} são as próprias leis da lóg
 
 > "não estão sujeitos à prova ou refutação. Toda tentativa de prová"-los tem de pressupor a validade dos mesmos. Seria impossível explicá"-los a um ser que não os possuíssem por conta própria. Os esforços para defini"-los de acordo com as regras da definição devem falhar. Eles são proposições primárias que antecedem qualquer definição nominal ou real. Eles são categorias fundamentais irrevogáveis. A mente humana é completamente incapaz de conceber categorias lógicas em desacordo com eles. Não importa como eles podem aparentar para seres sobre"-humanos, eles são inevitáveis e absolutamente necessários para o homem. Eles são a condição indispensável da percepção, apercepção [N. do T.: plena compreensão], e experiência.
 >
-> As formas e categorias a priori do pensamento e raciocínio humano não podem ter seus antecedentes rastreados até um ponto em que elas apareçam como uma conclusão logicamente necessária. É contraditório esperar que a lógica possa ser de qualquer serventia em demonstrar a correção ou validade dos princípios fundamentais da lógica. Tudo o que pode ser dito sobre eles é que negar sua veracidade ou validade parece à mente humana ser absurdo e que o pensamento, guiado por eles, levou a modos de agir bem sucedidos."{}[^11]\fimsec
+> As formas e categorias a priori do pensamento e raciocínio humano não podem ter seus antecedentes rastreados até um ponto em que elas apareçam como uma conclusão logicamente necessária. É contraditório esperar que a lógica possa ser de qualquer serventia em demonstrar a correção ou validade dos princípios fundamentais da lógica. Tudo o que pode ser dito sobre eles é que negar sua veracidade ou validade parece à mente humana ser absurdo e que o pensamento, guiado por eles, levou a modos de agir bem sucedidos."{}[^11]
 
 # Causalidade
 
@@ -64,7 +64,7 @@ Não há, no entanto, outra forma imaginável de dar sentido ao mundo material, 
 
 Não só as ciências naturais, como também a vida cotidiana, seria impossível sem a nossa concepção inata de que a regularidade passada, de fato, prediz a regularidade futura. Sem ela, nunca teríamos desenvolvido a agricultura, porque nós não teríamos razão para inferir de ciclos sazonais passados que semelhantes ciclos sazonais podem ocorrer no futuro. Sem ele, nós nunca poderíamos sequer evitar o contato com chamas, porque não teríamos razão para inferir de contatos passados a dor e os danos que o contato futuro implicaria.
 
-> "Em um mundo sem causalidade e regularidade de fenômenos, não haveria espaço para o raciocínio humano e para a ação humana. Tal mundo seria um caos no qual o homem se esforçaria inutilmente para encontrar algum guia e orientação. O homem não é sequer capaz de conceber as condições de tal universo caótico."{}[^15]\fimsec
+> "Em um mundo sem causalidade e regularidade de fenômenos, não haveria espaço para o raciocínio humano e para a ação humana. Tal mundo seria um caos no qual o homem se esforçaria inutilmente para encontrar algum guia e orientação. O homem não é sequer capaz de conceber as condições de tal universo caótico."{}[^15]
 
 # Teleologia e Ação
 
@@ -74,7 +74,7 @@ Assim como o mundo natural seria uma confusão sem sentido de sensações sem a 
 
 Gestos e palavras seriam movimentos e sons sem sentido, a menos que a mente fosse capaz de aplicar o conceito de "propósito"{} a eles. E como você poderia explicar o conceito de "propósito"{} para alguém que já não tivesse uma concepção inata dele, se tal explicação seriam movimentos e sons sem sentido para o seu "aluno"{}?
 
-Se eu sei alguma coisa, eu sei o que é ação. Através de cada frase que eu escrevo com o propósito de comunicar a você, o leitor, eu a vivencio. E se você está olhando para estas palavras, com o propósito de as compreender, você também a está vivenciando. Se eu fosse tentar negar a realidade de propósito, meios e fins, eu me encontraria num absurdo manifesto de tentar negar a realidade de tentar.\fimsec
+Se eu sei alguma coisa, eu sei o que é ação. Através de cada frase que eu escrevo com o propósito de comunicar a você, o leitor, eu a vivencio. E se você está olhando para estas palavras, com o propósito de as compreender, você também a está vivenciando. Se eu fosse tentar negar a realidade de propósito, meios e fins, eu me encontraria num absurdo manifesto de tentar negar a realidade de tentar.
 
 # A Vontade
 
@@ -94,7 +94,7 @@ Assim, por todos os motivos listados, a ação é uma realidade necessária para
 
 > "Alguns filósofos são preparados para desacreditar a noção da vontade do homem como sendo uma ilusão e um auto"-engano, porque o homem deve involuntariamente se comportar de acordo com as inevitáveis leis da causalidade. Eles podem estar certos ou errados do ponto de vista da causa primeira ou da causa de si [N. do T.: causa primeira = primus movens e causa de si = causa sui] No entanto, do ponto de vista humano, a ação é o fato fundamental. Nós não afirmamos que o homem é "livre"{} para escolher e agir. Nós meramente estabelecemos o fato de que ele escolhe e age."{}[^22]
 
-As duas últimas frases parecem estar em consonância com o ditado de Arthur Schopenhauer: "Man can do what he wills, but he cannot will what he wills."{} ("O homem pode fazer o que ele deseja, mas ele não pode decidir o que ele deseja"{})[^23]\fimsec
+As duas últimas frases parecem estar em consonância com o ditado de Arthur Schopenhauer: "Man can do what he wills, but he cannot will what he wills."{} ("O homem pode fazer o que ele deseja, mas ele não pode decidir o que ele deseja"{})[^23]
 
 # A Praxeologia
 
@@ -138,7 +138,7 @@ Por exemplo, pode"-se pensar sobre o modo particular de ação, "troca indireta"
 
 Por exemplo, Mises não considera que a "desutilidade do trabalho"{} seja uma categoria da ação.[^29] Ele julga a noção de trabalho sem desutilidade como sendo totalmente consistente com a noção de ação. No entanto, é um fato facilmente observado que a desutilidade do trabalho permeia o mundo real. Assim, o praxeologista, para que seus estudos sejam úteis no mundo real, deve assumir a desutilidade do trabalho em seus raciocínios. Mises enfatiza que isso não faz da praxeologia uma disciplina "empírica"{}.
 
-> "No entanto, essa referência à experiência não prejudica o caráter apriorístico da praxeologia e da economia. A experiência meramente faz com que a nossa curiosidade seja direcionada para certos problemas e se desvie de outros problemas. Ela nos diz o que devemos explorar, mas ela não nos diz como podemos proceder em nossa busca pelo conhecimento."{}[^30]\fimsec
+> "No entanto, essa referência à experiência não prejudica o caráter apriorístico da praxeologia e da economia. A experiência meramente faz com que a nossa curiosidade seja direcionada para certos problemas e se desvie de outros problemas. Ela nos diz o que devemos explorar, mas ela não nos diz como podemos proceder em nossa busca pelo conhecimento."{}[^30]
 
 # A Economia
 
@@ -194,7 +194,7 @@ Mises utilizou a comparação frutífera com a geometria para refutar uma outra 
 
 Outro erro similar que os críticos cometem, é que eles se confundem sobre o sentido no qual os teoremas da economia são tautologias. Quando Mises diz que a teoria quantitativa da moeda, assim como o teorema de Pitágoras, é uma tautologia, ele está usando a definição técnica de "tautologia"{}, da forma que ela é usada no campo da lógica: "uma afirmação que é verdade por necessidade ou por virtude de sua forma lógica."{}
 
-Ele não está usando a definição do dia"-a"-dia que surgiu para o termo: "dizer a mesma coisa duas vezes com palavras diferentes,"{} como em "solteiros são homens adultos não casados."{} Esse último tipo de tautologia pleonástica é realmente estéril (ver minha discussão sobre o "axioma da ação"{} na nota 24), porque ela não nos diz nada que já não fosse previamente conhecido. Mas, como Mises explicou acima, o primeiro tipo de tautologia é incrivelmente proveitoso para expandir o conhecimento de alguém que ainda não conheça todas as implicações da premissa.\fimsec
+Ele não está usando a definição do dia"-a"-dia que surgiu para o termo: "dizer a mesma coisa duas vezes com palavras diferentes,"{} como em "solteiros são homens adultos não casados."{} Esse último tipo de tautologia pleonástica é realmente estéril (ver minha discussão sobre o "axioma da ação"{} na nota 24), porque ela não nos diz nada que já não fosse previamente conhecido. Mas, como Mises explicou acima, o primeiro tipo de tautologia é incrivelmente proveitoso para expandir o conhecimento de alguém que ainda não conheça todas as implicações da premissa.
 
 # A Praxeologia Não é Algo Novo
 
@@ -210,7 +210,7 @@ Além disso, todo pensador cuidadoso das relações humanas (não apenas os econ
 
 De fato, toda a humanidade sempre utilizou o raciocínio praxeológico. Mises só deixou clara a distinção entre a parte que sempre está presente no raciocínio humano e as demais partes. Somente depois de essa distinção ser feita que poderia ser dado um nome para aquela parte do raciocínio humano. Se o homem não tivesse sempre utilizado o raciocínio praxeológico, o mais rudimentar entendimento das ações dos demais homens e, portanto, também de toda a sociedade humana, teria sido totalmente impossível.
 
-> "Toda a experiência relacionada à ação humana é condicionada pelas categorias praxeológicas e só se torna possível através da aplicação delas. Se não tivéssemos em nossas mentes os esquemas fornecidos pelo raciocínio praxeológico, nunca deveríamos estar em condições de discernir e compreender qualquer ação. Nós perceberíamos movimentos, mas não compras e vendas, nem preços, salários, taxas de juro, e assim por diante. Somente através da utilização do esquema praxeológico é que nós nos tornamos capazes de ter uma experiência relativa a um ato de compra e venda, e independentemente do fato de nossos sentidos concomitantemente perceberem ou não qualquer movimento de homens e elementos não"-humanos do mundo externo. Sem a ajuda do conhecimento praxeológico, nós nunca aprenderíamos nada sobre meios de troca. Se nos aproximarmos de moedas sem tal conhecimento preexistente, veríamos nelas apenas placas redondas de metal, nada mais. A experiência no que diz respeito à moeda exige familiaridade com a categoria praxeológica de meio de troca."{}[^36]\fimsec
+> "Toda a experiência relacionada à ação humana é condicionada pelas categorias praxeológicas e só se torna possível através da aplicação delas. Se não tivéssemos em nossas mentes os esquemas fornecidos pelo raciocínio praxeológico, nunca deveríamos estar em condições de discernir e compreender qualquer ação. Nós perceberíamos movimentos, mas não compras e vendas, nem preços, salários, taxas de juro, e assim por diante. Somente através da utilização do esquema praxeológico é que nós nos tornamos capazes de ter uma experiência relativa a um ato de compra e venda, e independentemente do fato de nossos sentidos concomitantemente perceberem ou não qualquer movimento de homens e elementos não"-humanos do mundo externo. Sem a ajuda do conhecimento praxeológico, nós nunca aprenderíamos nada sobre meios de troca. Se nos aproximarmos de moedas sem tal conhecimento preexistente, veríamos nelas apenas placas redondas de metal, nada mais. A experiência no que diz respeito à moeda exige familiaridade com a categoria praxeológica de meio de troca."{}[^36]
 
 # A Natureza e o Reino Humano
 
@@ -268,7 +268,7 @@ E na série de televisão que foi base para o livro Cosmos, Sagan disse,
 >
 > O fato de as conclusões de Thales serem certas ou erradas não é nem de longe tão importante quanto a sua abordagem. O mundo não foi criado pelos deuses, mas ao invés disso era o resultado de forças materiais interagindo na natureza.
 
-Essa abordagem eventualmente levou à revolução científica dos tempos modernos.\fimsec
+Essa abordagem eventualmente levou à revolução científica dos tempos modernos.
 
 # Antiteleologia Radical
 
@@ -308,11 +308,11 @@ Os mais extremos e radicais antiteleologistas estão de fato certos quando dizem
 
 Nós temos muitas questões causais sobre nossos corpos (incluindo os nossos cérebros) porque nossos corpos são úteis para nós. Mas nós também temos muitas perguntas teleológicas sobre escolhas, sucessos, fracassos, prosperidade e pobreza. A partir do momento em que você abandona a linguagem teleológica, você efetivamentejá mudou a pergunta. Então, na medida em que nós ainda estamos fazendo perguntas teleológicas, precisamos continuar a fornecer respostas teleológicas.
 
-Não há nada de errado com a neurobiologia e a neuroquímica; de fato, essas ciências estão conquistando maravilhas para nós. Mas as ciências sociais nunca poderão ser decompostas nessas ciências naturais, porque a mente humana nunca pode decompor a teleologia em causalidade sem abandonar por completo a teleologia, e estudar os assuntos humanos sem levar em conta a ação propositada não é o estudo dos assuntos humanos de forma alguma.\fimsec
+Não há nada de errado com a neurobiologia e a neuroquímica; de fato, essas ciências estão conquistando maravilhas para nós. Mas as ciências sociais nunca poderão ser decompostas nessas ciências naturais, porque a mente humana nunca pode decompor a teleologia em causalidade sem abandonar por completo a teleologia, e estudar os assuntos humanos sem levar em conta a ação propositada não é o estudo dos assuntos humanos de forma alguma.
 
 # Economia Cientística
 
-A maioria dos cientistas sociais que buscam imitar as ciências naturais não levam as coisas tão longe ao ponto de negar por completo a teleologia. A maioria considera os humanos como sendo seres agentes. No entanto, em seus empreendimentos "cientísticos"{}, eles acabam invalidando todos os seus esforços com abordagens defeituosas. Um dos aspectos das ciências naturais que eles tentam imitar são os métodos empíricos dessas.\fimsubsec
+A maioria dos cientistas sociais que buscam imitar as ciências naturais não levam as coisas tão longe ao ponto de negar por completo a teleologia. A maioria considera os humanos como sendo seres agentes. No entanto, em seus empreendimentos "cientísticos"{}, eles acabam invalidando todos os seus esforços com abordagens defeituosas. Um dos aspectos das ciências naturais que eles tentam imitar são os métodos empíricos dessas.
 
 ## Complexidade
 
@@ -320,13 +320,13 @@ No entanto, todos os dados, não importa quão numerosos e cuidadosamente recolh
 
 > A experiência com a qual as ciências da ação humana tem que lidar é sempre uma experiência de fenômenos complexos. Nenhum experimento de laboratório pode ser feito com relação à ação humana. Nós nunca estamos em posição de observar a mudança de um único elemento, com todas as outras condições do evento se mantendo inalteradas. Se a experiência histórica é uma experiência de fenômenos complexos, ela não nos fornece fatos no sentido em que as ciências naturais empregam esse termo, significando eventos isolados testados em experimentos. A informação veiculada pela experiência histórica não pode ser usada como material de construção para a edificação de teorias e para a predição de eventos futuros. Toda a experiência histórica está aberta a várias interpretações, e é, de fato, interpretada de maneiras diferentes. …
 >
-> Fenômenos complexos que são produzidos por várias cadeias causais entrelaçadas não podem testar nenhuma teoria. Tais fenômenos, pelo contrário, apenas tornam"-se inteligíveis através de uma interpretação em termos de teorias anteriormente desenvolvidas a partir de outras fontes. No caso dos fenômenos naturais, a interpretação de um evento não deve estar em desacordo com as teorias verificadas de forma satisfatória através de experimentos. No caso dos eventos históricos não há tal restrição. Os comentaristas estariam livres para recorrer a explicações bastante arbitrárias. Quando há algo a explicar, a mente humana nunca se perdeu ao inventar, ad hoc, algumas teorias imaginárias, desprovidas de qualquer justificação lógica.[^50]\fimsubsec
+> Fenômenos complexos que são produzidos por várias cadeias causais entrelaçadas não podem testar nenhuma teoria. Tais fenômenos, pelo contrário, apenas tornam"-se inteligíveis através de uma interpretação em termos de teorias anteriormente desenvolvidas a partir de outras fontes. No caso dos fenômenos naturais, a interpretação de um evento não deve estar em desacordo com as teorias verificadas de forma satisfatória através de experimentos. No caso dos eventos históricos não há tal restrição. Os comentaristas estariam livres para recorrer a explicações bastante arbitrárias. Quando há algo a explicar, a mente humana nunca se perdeu ao inventar, ad hoc, algumas teorias imaginárias, desprovidas de qualquer justificação lógica.[^50]
 
 ## Não"-regularidade
 
 Mais ainda, a abordagem empírica nas ciências naturais só é fecunda por causa de sua regularidade, e por causa da nossa capacidade de usar a categoria da causalidade de forma a usar, cuidadosamente, regularidades observadas no passado para inferir tais regularidades de forma geral (em outros lugares e tempos). Mas, como Mises argumentou, simplesmente não há tal regularidade no âmbito da ação humana:
 
-> Epistemologicamente, a marca distintiva do que chamamos de natureza é encontrada na regularidade determinável e inevitável na concatenação e sequência de fenômenos. Por outro lado, a marca distintiva do que chamamos de esfera humana ou história ou, ainda melhor, de esfera da ação humana é a ausência de uma regularidade universalmente vigente. Sob condições idênticas, pedras reagem ao mesmo estímulo da mesma maneira; nós podemos aprender algo sobre esses padrões regulares de reação, e nós podemos fazer uso desse conhecimento para orientar nossas ações orientadas para certos fins. A nossa classificação dos objetos naturais e os nomes que atribuímos a essas classes é o resultado dessa noção. Uma pedra é algo que reage de uma forma definida. Os homens reagem aos mesmos estímulos de formas diferentes, e o mesmo homem em diferentes instantes de tempo pode reagir de maneira diferente da sua conduta anterior ou posterior. É impossível agrupar os homens em classes cujos membros sempre reagem da mesma forma.[^51]\fimsubsec
+> Epistemologicamente, a marca distintiva do que chamamos de natureza é encontrada na regularidade determinável e inevitável na concatenação e sequência de fenômenos. Por outro lado, a marca distintiva do que chamamos de esfera humana ou história ou, ainda melhor, de esfera da ação humana é a ausência de uma regularidade universalmente vigente. Sob condições idênticas, pedras reagem ao mesmo estímulo da mesma maneira; nós podemos aprender algo sobre esses padrões regulares de reação, e nós podemos fazer uso desse conhecimento para orientar nossas ações orientadas para certos fins. A nossa classificação dos objetos naturais e os nomes que atribuímos a essas classes é o resultado dessa noção. Uma pedra é algo que reage de uma forma definida. Os homens reagem aos mesmos estímulos de formas diferentes, e o mesmo homem em diferentes instantes de tempo pode reagir de maneira diferente da sua conduta anterior ou posterior. É impossível agrupar os homens em classes cujos membros sempre reagem da mesma forma.[^51]
 
 ## Economia Matemática
 
@@ -342,7 +342,7 @@ Em segundo lugar, equações também exigem relações constantes. Então, novam
 
 > [N]a mecânica, a equação pode render serviços práticos muito importantes. Porque existem relações constantes entre os vários elementos mecânicos e porque essas relações podem ser verificadas através de experimentos, torna"-se possível a utilização de equações para a solução de definidos problemas tecnológicos. Nossa civilização industrial moderna é essencialmente uma consequência da utilização das equações diferenciais da física. Não existem tais relações constantes, no entanto, entre os elementos econômicos. As equações formuladas pela economia matemática continuam sendo peças inúteis de ginástica mental e permaneceriam assim mesmo se elas expressassem muito mais do elas realmente expressam.[^53]
 
-Além desses erros epistemológicos básicos, economistas matemáticos também torturam conceitos econômicos, como o de utilidade e o de equilíbrio com formulações viciosas, de modo a torná"-los matematicamente manipuláveis, ao custo da verdade e da significatividade. Como esse é um artigo sobre epistemologia, e não propriamente de economia, eu não vou apresentar todos os argumentos de Mises contra as falácias da economia matemática, apenas direciono o leitor ao meu guia de estudos da Teoria da Moeda e do Crédito, capítulo 2, e Ação Humana, capítulo 9,secção 5, ambos livros de Mises.\fimsec
+Além desses erros epistemológicos básicos, economistas matemáticos também torturam conceitos econômicos, como o de utilidade e o de equilíbrio com formulações viciosas, de modo a torná"-los matematicamente manipuláveis, ao custo da verdade e da significatividade. Como esse é um artigo sobre epistemologia, e não propriamente de economia, eu não vou apresentar todos os argumentos de Mises contra as falácias da economia matemática, apenas direciono o leitor ao meu guia de estudos da Teoria da Moeda e do Crédito, capítulo 2, e Ação Humana, capítulo 9,secção 5, ambos livros de Mises.
 
 # Conclusão
 

@@ -1,58 +1,59 @@
-  \ifdefined\URL
-    \ifdefined\CriadorDestePDF
-      \ifdefined\mobile
-        \def \poster {Discussão em \href{\URL}{AncapChannel}, por \textsc{\CriadorDestePDF}.}
-      \else
-        \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\href{\URL}{\URL}}, por \textsc{\CriadorDestePDF}.}
-      \fi
+\ifdefined\URL
+  \ifdefined\CriadorDestePDF
+    \ifdefined\mobile
+      \def \poster {Discussão em \href{\URL}{AncapChannel}, por \textsc{\CriadorDestePDF}.}
     \else
-      \ifdefined\mobile
-        \def \poster {Discussão em \href{\URL}{AncapChannel}.}
-      \else
-        \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\url{\URL}}.}
-      \fi
+      \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\href{\URL}{\URL}}, por \textsc{\CriadorDestePDF}.}
     \fi
   \else
-    \ifdefined\CriadorDestePDF
-      \def \poster {Arquivo gerado por \textsc{\CriadorDestePDF}.}
+    \ifdefined\mobile
+      \def \poster {Discussão em \href{\URL}{AncapChannel}.}
     \else
-      \def \poster {}
+      \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\url{\URL}}.}
     \fi
   \fi
-  \ifdefined\incluirCapa
-	\input{\modelos/capa.tex}
-    \ifdefined\mobile
-      \clearpage
-    \else
-    \fi
+\else
+  \ifdefined\CriadorDestePDF
+    \def \poster {Arquivo gerado por \textsc{\CriadorDestePDF}.}
   \else
-  \fi % a próxima linha já deve ser o TOC
+    \def \poster {}
+  \fi
+\fi
+\ifdefined\incluirCapa
+  \input{\modelos/capa.tex}
   \ifdefined\mobile
-    \let\oldfootnoterule\footnoterule
-    \renewcommand*\footnoterule{}
-  \else\ifdefined\comecaseparado
-    \let\oldfootnoterule\defaultfootnoterule
-    \renewcommand*\defaultfootnoterule{}
-  \fi\fi
-  \blfootnote{\today. \poster\caixa}
-  %\renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
-  \renewcommand\cftaftertoctitle{\par\vskip-0.65em}
-  \tableofcontents
-  \etocifwasempty 
-  {
-    \ifdefined\mobile
-    \else
-     \newline % se tiver linha em branco acima, da pau
-    \fi
-  }
-  {
+    \clearpage
+  \else
+  \fi
+\else
+\fi % a próxima linha já deve ser o TOC
+\ifdefined\mobile
+  \let\oldfootnoterule\footnoterule
+  \renewcommand*\footnoterule{}
+\else\ifdefined\comecaseparado
+  \let\oldfootnoterule\defaultfootnoterule
+  \renewcommand*\defaultfootnoterule{}
+\fi\fi
+\blfootnote{\today. \poster\caixa}
+%\renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
+\renewcommand\cftaftertoctitle{\par\vskip-0.65em}
+\tableofcontents
+\etocifwasempty 
+{
+  \ifdefined\mobile
+    \let\footnoterule\oldfootnoterule
+  \else
+    \newline\newline % se tiver linha em branco acima, da pau
+  \fi
+}
+{
   %\psvectorian{47} %
   \ifdefined\mobile
-  \def \hr{\leavevmode\leaders\hrule height 0.556pt\hfill\kern0pt}
-  \noindent\raisebox{.194pt}{\pgfornament[width=.068\textwidth]{14}}\noindent\hr
+    \def \hr{\leavevmode\leaders\hrule height 0.556pt\hfill\kern0pt}
+    \noindent\raisebox{.194pt}{\pgfornament[width=.068\textwidth]{14}}\noindent\hr
   \else
-  \def \hr{\leavevmode\leaders\hrule height 0.542pt\hfill\kern0pt}
-  \noindent\raisebox{.194pt}{\pgfornament[width=.035\textwidth]{14}}\noindent\hr
+    \def \hr{\leavevmode\leaders\hrule height 0.542pt\hfill\kern0pt}
+    \noindent\raisebox{.194pt}{\pgfornament[width=.035\textwidth]{14}}\noindent\hr
   \fi
   %\noindent\hr\raisebox{.300pt}{\pgfornament[width=.050\textwidth]{84}}\noindent\hr\hr\hr\hr\hr
   %\noindent\hr\raisebox{.580pt}{\pgfornament[width=.111\textwidth]{89}}\noindent\hr\hr
@@ -66,9 +67,10 @@
       \clearpage
       \let\defaultfootnoterule\oldfootnoterule
     \else
+      \newline
     \fi
   \fi
-  }
+}
 \frenchspacing 
 \markdownSetup{rendererPrototypes={
   image = {\begin{figure}[hbt!]

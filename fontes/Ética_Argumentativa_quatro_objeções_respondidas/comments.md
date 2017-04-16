@@ -1,2 +1,1 @@
-Texto retirado de RothbardBrasil:\newline
-`<http://rothbardbrasil.com/etica-argumentativa-quatro-objecoes-respondidas>`
+Texto retirado de [RothbardBrasil](http://rothbardbrasil.com/etica-argumentativa-quatro-objecoes-respondidas).

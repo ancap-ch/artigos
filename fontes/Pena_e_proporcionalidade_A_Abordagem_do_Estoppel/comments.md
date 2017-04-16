@@ -1,2 +1,1 @@
-Texto retirado de PortalLibertarianismo:\newline
-`<http://www.libertarianismo.org/>`
+Texto retirado de [PortalLibertarianismo](http://www.libertarianismo.org).

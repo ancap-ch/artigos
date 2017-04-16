@@ -1,4 +1,4 @@
-\def \fimsubsubsec {\hfill\textcolor{lightgray}{$\Box$}}
+\def \fimsubsubsec {\caixa}
 \noindent 1\. O que é o Mito do Dado?
 
 \DECORAR{W}{ilfrid} Sellars, que é o responsável pelo rótulo, notoriamente deixa de explicar em termos gerais o que ele quer dizer por isso. Como ele aponta, a ideia de dadidade para o conhecimento, dadidade para um sujeito cognoscente, pode ser inócua.[^1] Então como ela se torna perniciosa? Aqui vai uma sugestão: Dadidade no sentido do Mito seria uma *disponibilidade* de cognição para os sujeitos cuja captação do que é supostamente Dado a eles *não depende* de *capacidades requeridas* para o tipo de cognição em questão.

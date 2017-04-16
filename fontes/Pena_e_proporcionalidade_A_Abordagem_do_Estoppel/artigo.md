@@ -324,7 +324,7 @@ Muito embora seja difícil determinar precisamente as fronteiras da proporcional
 
 [^14]: _Zimmerman v. Zimmerman_, 86 A.D.2d 525, 447 N.Y.S. 2d 675 (Sup. Ct. 1982).
 
-[^15]: Conforme é usado aqui, "A 'agressão' é definida como a _iniciação_ do uso da força ou da ameaça de violência física contra a pessoa ou a propriedade de outrém." Murray N. Rothbard,_ [Por uma Nova Liberdade: o Manifesto Libertário](http://www.mises.org.br/Ebook.aspx?id=94)_ (edição revisada, Nova York: Libertarian Review Foundation, 1985)
+[^15]: Conforme é usado aqui, "A 'agressão' é definida como a _iniciação_ do uso da força ou da ameaça de violência física contra a pessoa ou a propriedade de outrém." Murray N. Rothbard, _[Por uma Nova Liberdade: o Manifesto Libertário](http://www.mises.org.br/Ebook.aspx?id=94)_ (edição revisada, Nova York: Libertarian Review Foundation, 1985).
 
 [^16]: Sobre a impossibilidade de se negar a lei de contradição, ver IV Aristóteles, Metafísica, 1005b19-21 ("A mesma coisa não pode ao mesmo tempo tanto pertencer como não pertencer a um mesmo objeto e sob o mesmo aspecto."); Hans-Hermann Hoppe, _A Theory of Socialism and Capitalism: Economics_, Politic and Ethics 232 n.23 (Boston: Kluwer Academic Publishers, 1989) [doravante Hoppe, _Socialism & Capitalism_]; e Ludwig von Mises, _Human Action: A Treatise on Economics_ 25 _et seq_. (3ª ed. rev., Chicago: Henry Regnery, 1966). _Ver também_ a discussão de Ayn Rand sobre a identidade, ou "A é A", e a lei da contradição em Atlas Shrugged 942-43 (New York: Signet, 1959); Leonard Peikoff, _Objectivism: The Philosophy of Ayn Rand_ 6-12, 118-21 (New York: Dutton, 1991); e Ronald E. Merreil, _Axioms: The Eightfold Way_, Objectivity, vol. 2, no. 2, 1995, p. 1.
 
