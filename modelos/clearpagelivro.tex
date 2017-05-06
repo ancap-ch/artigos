@@ -1,13 +1,25 @@
     \makeatletter
     \newif\if@sectionused \@sectionusedfalse
+    \newif\if@subsectionused \@subsectionusedfalse
     \let\oldsection\section
+    \let\oldsubsection\subsection
     \renewcommand{\section}{
     \ifdefined\separarSecoes
-	    \if@sectionused\clearpage\fi
-	    \@sectionusedtrue
-    	\def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
+        \if@sectionused\clearpage\fi
+        \def \fimsec {\hfill\textcolor{lightgray}{$\Box$}}
     \fi
     \ifdefined\zeraRodape\setcounter{footnote}{0}\fi
+    \@sectionusedtrue
+    \@subsectionusedfalse
     \oldsection
+    }
+    \renewcommand{\subsection}{
+    \ifdefined\separarSubSecoes
+        \if@subsectionused\clearpage\fi
+        \def \fimsubsec {\hfill\textcolor{lightgray}{$\Box$}}
+        \ifdefined\zeraRodape\setcounter{footnote}{0}\fi
+    \fi
+    \@subsectionusedtrue
+    \oldsubsection
     }
     \makeatother

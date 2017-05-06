@@ -1,0 +1,1 @@
+Texto reimpresso do _Journal of Libertarian Studies_ 9, no. 01 (Inverno, 1989) e retirado de [RothbardBrasil](http://rothbardbrasil.com/as-falacias-da-teoria-dos-bens-publicos-e-a-producao-de-seguranca).

@@ -130,7 +130,11 @@ pdftex,
 \newcommand{\DECORAR}[3][]{\lettrine[lines=3,loversize=.115,#1]{#2}{#3}}
 
 \ifdefined\mobile
-  \setcounter{tocdepth}{2}
+  \ifdefined\mobileDepth
+    \setcounter{tocdepth}{3}
+  \else
+    \setcounter{tocdepth}{2}
+  \fi
 \fi
 
 % para listar o link da discussão e a data:

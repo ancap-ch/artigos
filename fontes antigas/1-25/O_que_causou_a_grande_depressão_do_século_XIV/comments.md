@@ -1,2 +1,0 @@
-Este artigo foi extraído do livro _An Austrian Perspective on the History of Economic Thought_, vol. 1, _Economic Thought Before Adam Smith_. Seu conteúdo foi retirado de RothbardBrasil:\newline
-`<http://rothbardbrasil.com/o-que-causou-a-grande-depressao-do-seculo-xiv>`

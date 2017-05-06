@@ -207,6 +207,9 @@ while True:
 				sys.stdout.write("mob...")
 				sys.stdout.flush()	
 				f.write('\def \mobile{}\n')
+				antes = fontes + "/" + dd + "/antes.tex"
+				if os.path.isfile(antes):
+					f.write('\input{' + antes + '}\n')
 			f.write('\input{' + main_tex + '}\n')
 			f.close()
 
