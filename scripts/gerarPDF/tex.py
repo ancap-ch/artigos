@@ -162,7 +162,7 @@ while True:
 		if continua == 6:
 			abrir = 1 - abrir
 	print("------")
-	indice = eval(input("crie o PDF: ") or last)
+	indice = eval(input("crie o PDF: ") or str(last))
 	copia = indice
 	last = indice
 

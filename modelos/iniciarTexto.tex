@@ -36,14 +36,14 @@
 \fi\fi
 \blfootnote{\today. \poster\caixa}
 %\renewcommand\cftaftertoctitle{\par\noindent\hrulefill\par\vskip-0.65em}
-\renewcommand\cftaftertoctitle{\par\vskip-0.65em}
+\renewcommand\cftaftertoctitle{\par\vskip-3.15em}
 \tableofcontents
 \etocifwasempty 
 {
   \ifdefined\mobile
     \let\footnoterule\oldfootnoterule
   \else
-    \newline\newline % se tiver linha em branco acima, da pau
+    \newline%\newline % se tiver linha em branco acima, da pau
   \fi
 }
 {
@@ -67,7 +67,7 @@
       \clearpage
       \let\defaultfootnoterule\oldfootnoterule
     \else
-      \newline
+      %\newline
     \fi
   \fi
 }

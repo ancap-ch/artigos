@@ -1,6 +1,4 @@
-
-
-Em 1849, em uma época em que o liberalismo clássico ainda era a força ideológica dominante e os termos “economista” e “socialista” eram geralmente considerados antônimos, Gustave de Molinari, um renomado economista belga, escreveu:
+\DECORAR{E}{m} 1849, em uma época em que o liberalismo clássico ainda era a força ideológica dominante e os termos “economista” e “socialista” eram geralmente considerados antônimos, Gustave de Molinari, um renomado economista belga, escreveu:
 
 > Se existe uma verdade bem estabelecida na economia política, é esta: que em todos os casos, para todas as mercadorias que servem à provisão das necessidades tangíveis ou intangíveis do consumidor, é do melhor interesse dele que o trabalho e o comércio permaneçam livres, porque a liberdade do trabalho e do comércio tem, como resultado necessário e permanente, a redução máxima do preço. E esta: que os interesses do consumidor de qualquer mercadoria devem sempre prevalecer sobre os interesses do produtor. Assim, ao seguirmos esses princípios, chegamos a esta rigorosa conclusão: que a produção de segurança deveria, nos interesses dos consumidores desta mercadoria intangível, permanecer sujeita à lei da livre competição. Donde se segue: que nenhum governo deveria ter o direito de impedir que outro governo entrasse em competição com ele ou que requeresse que os consumidores adquirissem exclusivamente os seus serviços.[^1]
 
