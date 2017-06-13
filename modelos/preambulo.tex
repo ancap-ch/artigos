@@ -125,9 +125,15 @@ pdftex,
 
 % usado para fonte decorativa
 \usepackage{lettrine}
-\usepackage{GoudyIn}
-\renewcommand{\LettrineFontHook}{\GoudyInfamily{}}
+
+%\usepackage{GoudyIn}
+%\renewcommand{\LettrineFontHook}{\GoudyInfamily{}}
+%\newcommand{\DECORAR}[3][]{\lettrine[lines=3,loversize=.115,#1]{#2}{#3}}
+
+\usepackage{Zallman}
+\renewcommand{\LettrineFontHook}{\Zallmanfamily{}}
 \newcommand{\DECORAR}[3][]{\lettrine[lines=3,loversize=.115,#1]{#2}{#3}}
+
 
 \ifdefined\mobile
   \ifdefined\mobileDepth
@@ -214,3 +220,20 @@ pdftex,
 \def \fimsubsec {}
 \def \fimsubsubsec {}
 
+%\usepackage{pgffor}
+\usepackage{arrayjob}
+\usepackage{calc}
+
+\newcommand{\linhatitulo}[1]{%
+\checktitulos(#1)\ifemptydata\else%
+  \begingroup\resizebox{.878\linewidth}{!}{\textsc {\cachedata}}\endgroup%
+  \checktitulos({\the\numexpr #1+1})\ifemptydata\else\newline\\\fi%
+\fi}
+
+% \newcommand{\linhatitulo}[1]{
+%   \checktitulos(#1)
+%   \ifemptydata\else
+%   \begingroup\resizebox{.878\linewidth}{!}{\textsc {\cachedata}}\endgroup
+%   %\begingroup\resizebox{.878\linewidth}{!}{\textsc {\cachedata}}\endgroup
+%   \checktitulos({\the\numexpr #1+1})\ifemptydata\else\newline\\\fi
+%   \fi}

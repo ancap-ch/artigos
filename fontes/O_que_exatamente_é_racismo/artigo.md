@@ -1,4 +1,4 @@
-\DECORAR[lines=2]{G}{ostaria} de analisar duas palavras que o estado e seus parasitas empregaram com muito sucesso obtendo aumentos no poder do governo. Uma é racismo. A outra é igualdade.
+\DECORAR{G}{ostaria} de analisar duas palavras que o estado e seus parasitas empregaram com muito sucesso obtendo aumentos no poder do governo. Uma é racismo. A outra é igualdade.
 
 O que exatamente é "racismo"{}? Quase nunca ouvimos uma definição. Duvido que alguém realmente saiba o que é. Se não acredita, pergunte a si mesmo por que, se racismo é algo realmente claro e determinado, há esta incessante discordância sobre quais pensamentos e comportamentos são "racistas"{} e quais não são?
 
