@@ -30,11 +30,11 @@ Ainda que fosse ele mesmo um economista matemático, o matemático filho de Carl
 
 > "Considere, por exemplo, os enunciados (2): A um preço mais elevado de um bem corresponde uma mais baixa (ou a qualquer taxa, uma não mais alta) demanda.
 
-> (2\\\\\\(^\prime\\\\\\)): Se p denota o preço de um bem e que a sua demanda, então
+> (2\\(^\prime\\)): Se p denota o preço de um bem e que a sua demanda, então
 
-> \\\\\\(q = f(p)\\\\\\) e \\\\\\(dq/dp = f’(p) = 0\\\\\\)
+> \\(q = f(p)\\) e \\(dq/dp = f’(p) = 0\\)
 
-> Aqueles que consideram a fórmula (2\\\\\\(^\prime\\\\\\) como mais precisa ou "mais matemática"{} do que a sentença (2) estão sob completo equívoco … a única diferença entre (2) e (2\\\(^\prime\\\)) é essa: uma vez que (2\\\(^\prime\\\)) é limitada a funções que são diferenciáveis e cujos gráficos, portanto, têm tangentes (que de um ponto de vista econômico não são mais plausíveis do que a curvatura), a sentença (2) é mais geral, mas de forma alguma menos precisa: ela tem a mesma precisão matemática do que (2\\\(^\prime\\\))."{}[^11]
+> Aqueles que consideram a fórmula (2\\(^\prime\\) como mais precisa ou "mais matemática"{} do que a sentença (2) estão sob completo equívoco … a única diferença entre (2) e (2\\\(^\prime\\\)) é essa: uma vez que (2\\\(^\prime\\\)) é limitada a funções que são diferenciáveis e cujos gráficos, portanto, têm tangentes (que de um ponto de vista econômico não são mais plausíveis do que a curvatura), a sentença (2) é mais geral, mas de forma alguma menos precisa: ela tem a mesma precisão matemática do que (2\\\(^\prime\\\))."{}[^11]
 
 Indo do processo de dedução para os próprios axiomas, qual o seu status epistemológico? Aqui os problemas se tornam obscuros pela diferença de opinião dentro do campo praxeológico, em particular no que diz respeito ao axioma fundamental da ação. Ludwig von Mises, um adepto da epistemologia kantiana, afirmava que o conceito de ação é _a priori_ a toda experiência, porque ele é, como a lei de causa e efeito, parte do "caráter essencial e necessário da estrutura lógica da mente humana"{}.[^12] Sem analisar muito profundamente as turvas águas da epistemologia, eu negaria, como um aristotélico e neotomista, qualquer suposta "lei de estrutura lógica"{} que a mente humana necessariamente impõe à estrutura caótica da realidade. Pelo contrário, eu chamaria tais leis de "leis da realidade"{}, as quais a mente compreende ao investigar e comparar os fatos do mundo real. Meu ponto de vista é que o axioma fundamental e os axiomas auxiliares são derivados da experiência da realidade e são, portanto, empíricos no sentido mais abrangente. Eu concordaria com a visão realista aristotélica de que sua doutrina é radicalmente empírica, muito mais do que o empiricismo pós"-humeano que é dominante na filosofia moderna. Assim, John Wild escreveu:
 

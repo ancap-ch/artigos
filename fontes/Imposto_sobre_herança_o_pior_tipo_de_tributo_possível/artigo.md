@@ -35,12 +35,12 @@ A depredação econômica prossegue. Pessoas ricas em imobilizados mas com pouco
 
 O meio"-ambiente não fica incólume. Áreas ambientalmente sensíveis, como florestas e pântanos, servem de reserva para a rotação de culturas e proteção do solo, além do potencial de uso futuro para o ecoturismo e a pesquisa científica. O imposto sobre herança obriga os proprietários a vender essas áreas ou explorá"-las de imediato para fazer caixa. A degradação do solo e dos mananciais se intensifica, prejudicando inclusive a produtividade da terra previamente utilizada para a agricultura. Nos EUA, 2,6 milhões de acres de floresta são desmatados anualmente apenas para pagar impostos sobre patrimônio[^8].
 
-Outros efeitos econômicos malignos desse tributo incluem
+Outros efeitos econômicos malignos desse tributo incluem:\newline
 
 * Maior concentração de mercado: negócios familiares serão engolidos por grandes corporações cuja troca de gestão não configura herança.
 * Custo de oportunidade dos meios de *compliance* e de defesa: tanto o aparato de *enforcement* deste tributo quanto os advogados e contadores contratados para reduzir os danos às famílias consomem recursos escassos que poderiam ser empregados de forma verdadeiramente produtiva.
 * Menos recursos disponível aos filhos para cuidar dos pais idosos e dependentes.
-* Inflação: a conversão de bens de capital em ativos líquidos combinada à maior propensão ao consumo terá forte efeito inflacionário.
+* Inflação: a conversão de bens de capital em ativos líquidos combinada à maior propensão ao consumo terá forte efeito inflacionário.\newline
 
 A decorrência mais perversa desse imposto é a destruição do tecido familiar.
 
