@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+
 from io import TextIOWrapper
 sys.stdout = TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
@@ -31,11 +32,15 @@ except OSError:
 # print(escape_latex('\nAlso some crazy characters: $&#{}'))
 # print(escape_latex('\nAlso some crazy characters: \qualquer{} $&#{}'))
 
-modelos = 'C:/Users/Thiago/Desktop/ancap.ch/artigos/modelos'
-fontes = 'C:/Users/Thiago/Desktop/ancap.ch/artigos/fontes'
-ufontes = u'C:/Users/Thiago/Desktop/ancap.ch/artigos/fontes'
-saidas = 'C:/Users/Thiago/Desktop/ancap.ch/artigos/pdfs'
-main_tex = 'C:/Users/Thiago/Desktop/ancap.ch/artigos/main/main.tex'
+from pathlib import Path,PureWindowsPath
+cwd = os.getcwd()
+topwd = PureWindowsPath(cwd).parent.parent
+topwd = topwd.as_posix()
+modelos = topwd + '/modelos'
+fontes = topwd + '/fontes'
+ufontes = (topwd + u'/fontes').encode('utf-8')
+saidas = topwd + '/pdfs'
+main_tex = topwd +  '/main/main.tex'
 
 path = fontes.encode('utf-8').strip()
 
