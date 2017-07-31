@@ -202,6 +202,8 @@ while True:
 			f = open('file.tex','w', encoding='UTF-8')
 			#l = open('lista.txt','w', encoding='UTF-8')
 			f.write('\def \caminho{' + dd + '}\n')
+			f.write('\def \modelos{' + modelos + '}\n')
+			f.write('\def \fontes{' + fontes + '}\n')
 			if i == 0:
 				sys.stdout.write("pc...")
 				sys.stdout.flush()	

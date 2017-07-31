@@ -1,15 +1,19 @@
+\ifdefined\nomeSite
+\else
+  \def \nomeSite {AncapChannel}
+\fi
 \ifdefined\URL
   \ifdefined\CriadorDestePDF
     \ifdefined\mobile
-      \def \poster {Discussão em \href{\URL}{AncapChannel}, por \textsc{\CriadorDestePDF}.}
+      \def \poster {Discussão em \href{\URL}{\nomeSite}, por \textsc{\CriadorDestePDF}.}
     \else
-      \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\href{\URL}{\URL}}, por \textsc{\CriadorDestePDF}.}
+      \def \poster {Discussão em \href{\URL}{\nomeSite}\footnoteB{\href{\URL}{\URL}}, por \textsc{\CriadorDestePDF}.}
     \fi
   \else
     \ifdefined\mobile
-      \def \poster {Discussão em \href{\URL}{AncapChannel}.}
+      \def \poster {Discussão em \href{\URL}{\nomeSite}.}
     \else
-      \def \poster {Discussão em \href{\URL}{AncapChannel}\footnoteB{\url{\URL}}.}
+      \def \poster {Discussão em \href{\URL}{\nomeSite}\footnoteB{\url{\URL}}.}
     \fi
   \fi
 \else
